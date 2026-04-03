@@ -1,5 +1,5 @@
 # documentos-dev  
-## Grupo de Usuários Linux e Código Aberto  
+## Grupo de Usuários Linux e Software Livre  
 ### Estatística e Ciência de Dados – UFPR
 
 Este repositório contém os **documentos institucionais em desenvolvimento** do Grupo de Usuários Linux e Software Livre da UFPR.
