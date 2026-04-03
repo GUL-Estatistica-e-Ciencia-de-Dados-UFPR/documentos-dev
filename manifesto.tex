@@ -1,0 +1,241 @@
+%%============================================================================
+%% MANIFESTO — Grupo de Usuários Linux e Software Livre - Estatística e Ciência de Dados
+%%             Universidade Federal do Paraná (UFPR)
+%%============================================================================
+%% Documento institucional — versão formal
+%% Compilar com: pdflatex manifesto.tex  (ou xelatex / lualatex)
+%%============================================================================
+
+\documentclass[
+  12pt,          % tamanho base da fonte
+  a4paper,       % formato de papel
+  oneside,       % impressão frente única
+  brazil         % idioma principal: português do Brasil
+]{article}
+
+%---------------------------------------------------------------------------
+% Pacotes essenciais
+%---------------------------------------------------------------------------
+\usepackage[T1]{fontenc}            % codificação de fonte
+\usepackage[utf8]{inputenc}         % entrada UTF-8 (pdflatex)
+\usepackage{lmodern}                % fontes Latin Modern (vetoriais)
+\usepackage{microtype}              % microtipografia (melhora legibilidade)
+
+\usepackage[brazil]{babel}          % hifenização e nomes de seções em PT-BR
+
+\usepackage[
+  margin=2.5cm,
+  top=3cm,
+  bottom=3cm,
+  headheight=25pt
+]{geometry}                         % margens do documento
+
+\usepackage{setspace}               % controle de espaçamento entre linhas
+\usepackage{xcolor}                 % suporte a cores
+\usepackage{titlesec}               % formatação de títulos de seções
+\usepackage{titling}                % formatação do título do documento
+\usepackage{fancyhdr}               % cabeçalhos e rodapés personalizados
+\usepackage{enumitem}               % personalização de listas
+\usepackage{lettrine}               % capitulares (letra inicial decorada)
+\usepackage{graphicx}               % suporte a imagens (se necessário)
+\usepackage{hyperref}               % hiperlinks e metadados do PDF
+\usepackage{bookmark}               % bookmarks do PDF mais limpos
+
+%---------------------------------------------------------------------------
+% Cores institucionais
+%---------------------------------------------------------------------------
+\definecolor{gulecdBlue}{HTML}{1B3A5C}   % azul escuro institucional
+\definecolor{gulecdAccent}{HTML}{2E86AB} % azul de destaque
+\definecolor{gulecdGray}{HTML}{555555}   % cinza para texto secundário
+\definecolor{gulecdLight}{HTML}{F5F7FA}  % fundo claro para caixas
+\definecolor{gulecdRule}{HTML}{D0D5DD}   % cor de filetes e réguas
+
+%---------------------------------------------------------------------------
+% Metadados do PDF
+%---------------------------------------------------------------------------
+\hypersetup{
+  pdftitle    = {Manifesto — GULECD/UFPR},
+  pdfauthor   = {Grupo de Usuários Linux em Estatística e Ciência de Dados},
+  pdfsubject  = {Manifesto institucional do GULECD},
+  pdfkeywords = {software livre, código aberto, ciência de dados, UFPR, manifesto},
+  colorlinks  = true,
+  linkcolor   = gulecdAccent,
+  urlcolor    = gulecdAccent,
+  citecolor   = gulecdAccent
+}
+
+%---------------------------------------------------------------------------
+% Configurações tipográficas
+%---------------------------------------------------------------------------
+\onehalfspacing                     % espaçamento entre linhas = 1,5
+\setlength{\parindent}{1.5cm}       % recuo de parágrafo
+\setlength{\parskip}{0.5em}         % espaço entre parágrafos
+
+%---------------------------------------------------------------------------
+% Formato do título do documento
+%---------------------------------------------------------------------------
+\pretitle{%
+  \begin{center}
+  \vspace*{1cm}
+  \rule{\textwidth}{2pt}\vspace{0.3cm}\\
+  \LARGE\bfseries\color{gulecdBlue}
+}
+\posttitle{%
+  \\\vspace{0.3cm}
+  \rule{\textwidth}{2pt}
+  \end{center}
+  \vspace{0.5cm}
+}
+\preauthor{\begin{center}\large\color{gulecdGray}}
+\postauthor{\end{center}}
+\predate{\begin{center}\small\color{gulecdGray}}
+\postdate{\end{center}}
+
+%---------------------------------------------------------------------------
+% Formato das seções
+%---------------------------------------------------------------------------
+\titleformat{\section}
+  [block]
+  {\normalfont\Large\bfseries\color{gulecdBlue}}
+  {\thesection.}{0.8em}{}
+  [\vspace{0.2em}{\color{gulecdRule}\rule{\linewidth}{0.6pt}}]
+
+\titleformat{\subsection}
+  [block]
+  {\normalfont\large\bfseries\color{gulecdAccent}}
+  {\thesubsection.}{0.8em}{}
+
+\titlespacing*{\section}
+  {0pt}{2.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing*{\subsection}
+  {0pt}{2ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+%---------------------------------------------------------------------------
+% Cabeçalho e rodapé
+%---------------------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{gulecdGray}\textsc{GULECD/UFPR}}
+\fancyhead[R]{\small\color{gulecdGray}\textit{Manifesto}}
+\fancyfoot[C]{\small\color{gulecdGray}---\ \thepage\ ---}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{%
+  \hbox to\headwidth{%
+    \color{gulecdRule}\leaders\hrule height \headrulewidth\hfill}}
+
+% Remove cabeçalho/rodapé da primeira página (será redefinido manualmente)
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\small\color{gulecdGray}---\ \thepage\ ---}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+%---------------------------------------------------------------------------
+% Ambiente personalizado para os princípios
+%---------------------------------------------------------------------------
+\newenvironment{principio}[1]{%
+  \vspace{0.8em}
+  \noindent
+  \begin{minipage}{\textwidth}
+    \subsection*{#1}
+    \itshape
+}{%
+  \end{minipage}
+  \vspace{0.5em}
+}
+
+%---------------------------------------------------------------------------
+% Informações do documento
+%---------------------------------------------------------------------------
+\title{Manifesto do Grupo de Usuários Linux e Software Livre\\Estatística e Ciência de Dados - UFPR}
+%\author{Grupo de Usuários Linux e Código Aberto\\Curso de Estatística e Ciência de Dados --- UFPR}
+\date{\today}
+
+%============================================================================
+% INÍCIO DO DOCUMENTO
+%============================================================================
+\begin{document}
+
+%--- Capa / Título principal -------------------------------------------------
+\thispagestyle{empty}
+\maketitle
+
+\newpage
+
+%--- Preambulo --------------------------------------------------------------
+\section*{Preâmbulo}
+\addcontentsline{toc}{section}{Preâmbulo}
+
+\lettrine[lines=3, lhang=0.1, nindent=0em, slope=-0.5em]{E}{ste} grupo nasce da convergência entre a tradição científica da Estatística e da Ciência de Dados e a filosofia do software livre que sustenta o ecossistema Linux.
+
+Reconhecemos que a produção de conhecimento rigoroso, verificável e cumulativo depende de transparência metodológica, acesso irrestrito a ferramentas e capacidade de auditoria independente.
+
+Em um contexto onde infraestruturas proprietárias frequentemente limitam a reprodutibilidade e obscurecem processos analíticos, posicionamo-nos deliberadamente a favor de práticas abertas, colaborativas e tecnicamente fundamentadas.
+
+Este manifesto estabelece os princípios que orientam nossas atividades, consolidando um compromisso coletivo com excelência científica, autonomia tecnológica e construção compartilhada do conhecimento.
+
+%--- Princípios -------------------------------------------------------------
+\section*{Princípios}
+\addcontentsline{toc}{section}{Princípios}
+
+\begin{principio}{I --- Primazia do conhecimento aberto}
+Defendemos que o conhecimento científico deve ser livremente acessível, auditável e reutilizável; promovemos práticas que favoreçam transparência, reprodutibilidade e disseminação irrestrita do saber.
+\end{principio}
+
+\begin{principio}{II --- Software livre como fundamento científico}
+Adotamos e incentivamos o uso de software livre e de código aberto como base metodológica, reconhecendo sua superioridade epistemológica na validação, inspeção e evolução contínua de ferramentas analíticas.
+\end{principio}
+
+\begin{principio}{III --- Reprodutibilidade como princípio inegociável}
+Toda análise deve ser passível de reprodução independente; priorizamos ambientes versionados, código documentado e pipelines auditáveis como requisitos mínimos de rigor científico.
+\end{principio}
+
+\begin{principio}{IV --- Autonomia tecnológica}
+Valorizamos a independência em relação a plataformas proprietárias, promovendo o domínio técnico sobre sistemas, linguagens e ferramentas que permitam controle integral do processo computacional.
+\end{principio}
+
+\begin{principio}{V --- Cultura de colaboração radical}
+Incentivamos a colaboração aberta, horizontal e meritocrática; compartilhamos código, dados e ideias com o objetivo de acelerar a produção científica coletiva.
+\end{principio}
+
+\begin{principio}{VI --- Aprendizado contínuo e profundo}
+Comprometemo-nos com a formação técnica rigorosa, buscando compreender não apenas o uso, mas também os fundamentos computacionais, estatísticos e matemáticos das ferramentas que utilizamos.
+\end{principio}
+
+\begin{principio}{VII --- Transparência e rastreabilidade dos dados}
+Defendemos que dados e transformações analíticas sejam plenamente rastreáveis, com documentação clara de origem, processamento e limitações, garantindo integridade científica.
+\end{principio}
+
+\begin{principio}{VIII --- Infraestrutura aberta e escalável}
+Priorizamos o uso de ambientes Linux e ferramentas abertas para construção de pipelines robustos, escaláveis e eficientes, desde análises locais até sistemas distribuídos.
+\end{principio}
+
+\begin{principio}{IX --- Ética no uso e compartilhamento de dados}
+Aliamos abertura com responsabilidade; respeitamos privacidade, legislação e princípios éticos, garantindo que a liberdade tecnológica não comprometa direitos individuais.
+\end{principio}
+
+\begin{principio}{X --- Compromisso com impacto científico e social}
+Utilizamos ciência de dados e software livre como instrumentos para gerar conhecimento relevante, promover inovação e contribuir de forma concreta para a sociedade.
+\end{principio}
+
+%--- Encerramento -----------------------------------------------------------
+\section*{Encerramento}
+\addcontentsline{toc}{section}{Encerramento}
+
+Este compromisso não se encerra em princípios abstratos, mas se materializa nas práticas cotidianas de estudo, pesquisa, desenvolvimento e colaboração que sustentam este grupo.
+
+Ao adotar e promover software livre e código aberto como pilares da ciência de dados, assumimos uma postura ativa na construção de um ecossistema científico mais transparente, robusto e acessível.
+
+Subscrevemos, os membros do Grupo de Usuários Linux e Software Livre do Curso de Estatística e Ciência de Dados da UFPR, este manifesto como expressão formal de nossos valores, orientando nossas ações presentes e futuras.
+
+%--- Espaço para assinaturas ------------------------------------------------
+\vspace{2cm}
+\begin{center}
+\rule{0.45\textwidth}{0.4pt}\hfill\rule{0.45\textwidth}{0.4pt}\\[0.3em]
+\small\color{gulecdGray}
+Assinatura dos membros fundadores
+\end{center}
+
+%============================================================================
+\end{document}
+%============================================================================

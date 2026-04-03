@@ -1,0 +1,277 @@
+%%============================================================================
+%% CÓDIGO DE CONDUTA — Grupo de Usuários Linux em Estatística e Ciência de Dados
+%%                     Universidade Federal do Paraná (UFPR)
+%%============================================================================
+%% Documento institucional — versão formal
+%% Compilar com: pdflatex codigo-conduta.tex  (ou xelatex / lualatex)
+%%============================================================================
+
+\documentclass[
+  12pt,          % tamanho base da fonte
+  a4paper,       % formato de papel
+  oneside,       % impressão frente única
+  brazil         % idioma principal: português do Brasil
+]{article}
+
+%---------------------------------------------------------------------------
+% Pacotes essenciais
+%---------------------------------------------------------------------------
+\usepackage[T1]{fontenc}            % codificação de fonte
+\usepackage[utf8]{inputenc}         % entrada UTF-8 (pdflatex)
+\usepackage{lmodern}                % fontes Latin Modern (vetoriais)
+\usepackage{microtype}              % microtipografia (melhora legibilidade)
+
+\usepackage[brazil]{babel}          % hifenização e nomes de seções em PT-BR
+
+\usepackage[
+  margin=2.5cm,
+  top=3cm,
+  bottom=3cm,
+  headheight=25pt
+]{geometry}                         % margens do documento
+
+\usepackage{setspace}               % controle de espaçamento entre linhas
+\usepackage{xcolor}                 % suporte a cores
+\usepackage{titlesec}               % formatação de títulos de seções
+\usepackage{titling}                % formatação do título do documento
+\usepackage{fancyhdr}               % cabeçalhos e rodapés personalizados
+\usepackage{enumitem}               % personalização de listas
+\usepackage{lettrine}               % capitulares (letra inicial decorada)
+\usepackage{graphicx}               % suporte a imagens (se necessário)
+\usepackage{hyperref}               % hiperlinks e metadados do PDF
+\usepackage{bookmark}               % bookmarks do PDF mais limpos
+
+%---------------------------------------------------------------------------
+% Cores institucionais
+%---------------------------------------------------------------------------
+\definecolor{gulecdBlue}{HTML}{1B3A5C}   % azul escuro institucional
+\definecolor{gulecdAccent}{HTML}{2E86AB} % azul de destaque
+\definecolor{gulecdGray}{HTML}{555555}   % cinza para texto secundário
+\definecolor{gulecdLight}{HTML}{F5F7FA}  % fundo claro para caixas
+\definecolor{gulecdRule}{HTML}{D0D5DD}   % cor de filetes e réguas
+
+%---------------------------------------------------------------------------
+% Metadados do PDF
+%---------------------------------------------------------------------------
+\hypersetup{
+  pdftitle    = {Código de Conduta — GULECD/UFPR},
+  pdfauthor   = {Grupo de Usuários Linux - Estatística e Ciência de Dados - UFPR},
+  pdfsubject  = {Código de Conduta institucional do GULECD},
+  pdfkeywords = {código de conduta, software livre, código aberto, ciência de dados, UFPR},
+  colorlinks  = true,
+  linkcolor   = gulecdAccent,
+  urlcolor    = gulecdAccent,
+  citecolor   = gulecdAccent
+}
+
+%---------------------------------------------------------------------------
+% Configurações tipográficas
+%---------------------------------------------------------------------------
+\onehalfspacing                     % espaçamento entre linhas = 1,5
+\setlength{\parindent}{1.5cm}       % recuo de parágrafo
+\setlength{\parskip}{0.5em}         % espaço entre parágrafos
+
+%---------------------------------------------------------------------------
+% Formato do título do documento
+%---------------------------------------------------------------------------
+\pretitle{%
+  \begin{center}
+  \vspace*{1cm}
+  \rule{\textwidth}{2pt}\vspace{0.3cm}\\
+  \LARGE\bfseries\color{gulecdBlue}
+}
+\posttitle{%
+  \\\vspace{0.3cm}
+  \rule{\textwidth}{2pt}
+  \end{center}
+  \vspace{0.5cm}
+}
+\preauthor{\begin{center}\large\color{gulecdGray}}
+\postauthor{\end{center}}
+\predate{\begin{center}\small\color{gulecdGray}}
+\postdate{\end{center}}
+
+%---------------------------------------------------------------------------
+% Formato das seções
+%---------------------------------------------------------------------------
+\titleformat{\section}
+  [block]
+  {\normalfont\Large\bfseries\color{gulecdBlue}}
+  {\thesection.}{0.8em}{}
+  [\vspace{0.2em}{\color{gulecdRule}\rule{\linewidth}{0.6pt}}]
+
+\titleformat{\subsection}
+  [block]
+  {\normalfont\large\bfseries\color{gulecdAccent}}
+  {\thesubsection.}{0.8em}{}
+
+\titlespacing*{\section}
+  {0pt}{2.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing*{\subsection}
+  {0pt}{2ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+%---------------------------------------------------------------------------
+% Cabeçalho e rodapé
+%---------------------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{gulecdGray}\textsc{GULECD/UFPR}}
+\fancyhead[R]{\small\color{gulecdGray}\textit{Código de Conduta}}
+\fancyfoot[C]{\small\color{gulecdGray}---\ \thepage\ ---}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{%
+  \hbox to\headwidth{%
+    \color{gulecdRule}\leaders\hrule height \headrulewidth\hfill}}
+
+% Remove cabeçalho/rodapé da primeira página (será redefinido manualmente)
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\small\color{gulecdGray}---\ \thepage\ ---}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+%---------------------------------------------------------------------------
+% Ambiente personalizado para listas do código de conduta
+%---------------------------------------------------------------------------
+\newlist{conduta}{itemize}{1}
+\setlist[conduta]{
+  label      = {\color{gulecdAccent}\textbullet},
+  leftmargin = 1.5em,
+  itemsep    = 0.3em,
+  topsep     = 0.4em
+}
+
+%---------------------------------------------------------------------------
+% Informações do documento
+%---------------------------------------------------------------------------
+\title{Código de Conduta\\[0.3em]
+  \Large\mdseries\color{gulecdGray}%
+  Grupo de Usuários Linux e Softare Livre\\Estatística e Ciência de Dados - UFPR}
+%\author{Grupo de Usuários Linux e Software Livre\\Curso de Estatística e Ciência de Dados --- UFPR}
+\date{\today}
+
+%============================================================================
+% INÍCIO DO DOCUMENTO
+%============================================================================
+\begin{document}
+
+%--- Capa / Título principal -------------------------------------------------
+\thispagestyle{empty}
+\maketitle
+
+\newpage
+
+%--- Seção 1: Compromisso ---------------------------------------------------
+\section{Compromisso}
+
+\lettrine[lines=3, lhang=0.1, nindent=0em, slope=-0.5em]{N}{ós}, enquanto membros, colaboradores e organizadores, comprometemo-nos a garantir um ambiente de convivência acadêmica e técnica aberto, respeitoso e colaborativo. Nosso objetivo é promover uma comunidade onde o aprendizado, a troca de conhecimento e a produção científica ocorram de forma ética, inclusiva e tecnicamente rigorosa.
+
+%--- Seção 2: Padrões de Comportamento --------------------------------------
+\section{Padrões de Comportamento}
+
+São considerados comportamentos desejáveis:
+
+\begin{conduta}
+  \item Uso de linguagem respeitosa, técnica e construtiva
+  \item Abertura à crítica fundamentada e ao debate científico rigoroso
+  \item Compartilhamento de conhecimento, código e recursos de forma colaborativa
+  \item Reconhecimento de contribuições alheias
+  \item Apoio a membros em processo de aprendizado
+  \item Comunicação clara e baseada em evidências
+\end{conduta}
+
+%--- Seção 3: Comportamentos Inaceitáveis -----------------------------------
+\section{Comportamentos Inaceitáveis}
+
+Não serão tolerados:
+
+\begin{conduta}
+  \item Assédio, intimidação ou discriminação de qualquer natureza
+  \item Ataques pessoais ou desqualificação não técnica
+  \item Linguagem ofensiva, agressiva ou desrespeitosa
+  \item Divulgação indevida de informações pessoais ou sensíveis
+  \item Sabotagem de discussões técnicas ou projetos colaborativos
+  \item Qualquer conduta que comprometa a integridade científica ou ética do grupo
+\end{conduta}
+
+%--- Seção 4: Escopo de Aplicação -------------------------------------------
+\section{Escopo de Aplicação}
+
+Este Código de Conduta aplica-se a todos os espaços do grupo, incluindo:
+
+\begin{conduta}
+  \item Grupo de WhatsApp e demais canais digitais
+  \item Repositórios de código e plataformas colaborativas
+  \item Reuniões, eventos, workshops e encontros presenciais
+  \item Interações externas representando o grupo
+\end{conduta}
+
+%--- Seção 5: Responsabilidades da Moderação --------------------------------
+\section{Responsabilidades da Moderação}
+
+Os moderadores e organizadores são responsáveis por:
+
+\begin{conduta}
+  \item Garantir a aplicação deste Código de Conduta
+  \item Avaliar denúncias com imparcialidade e confidencialidade
+  \item Tomar medidas proporcionais às infrações
+  \item Promover um ambiente seguro e produtivo para todos os membros
+\end{conduta}
+
+%--- Seção 6: Aplicação e Medidas Corretivas --------------------------------
+\section{Aplicação e Medidas Corretivas}
+
+Em caso de violação, poderão ser adotadas, conforme a gravidade:
+
+\begin{conduta}
+  \item Advertência privada
+  \item Solicitação de retratação
+  \item Restrição temporária de participação
+  \item Remoção do grupo
+  \item Encaminhamento institucional, quando aplicável
+\end{conduta}
+
+%--- Seção 7: Denúncias -----------------------------------------------------
+\section{Denúncias}
+
+Situações que violem este Código de Conduta devem ser reportadas aos moderadores ou organizadores do grupo. Todas as denúncias serão tratadas com seriedade, confidencialidade e diligência.
+
+%--- Seção 8: Princípios Científicos e Éticos --------------------------------
+\section{Princípios Científicos e Éticos}
+
+Além das normas de convivência, espera-se que os membros:
+
+\begin{conduta}
+  \item Mantenham rigor científico em suas contribuições
+  \item Evitem práticas como plágio, fabricação ou manipulação indevida de dados
+  \item Respeitem normas éticas aplicáveis, incluindo a Lei Geral de Proteção de Dados (LGPD)
+  \item Promovam reprodutibilidade e transparência
+\end{conduta}
+
+%--- Seção 9: Alinhamento com Software Livre --------------------------------
+\section{Alinhamento com Software Livre}
+
+Este grupo se orienta pelos princípios do software livre e código aberto, promovendo:
+
+\begin{conduta}
+  \item Liberdade de uso, estudo, modificação e distribuição de software
+  \item Transparência técnica e auditabilidade
+  \item Colaboração descentralizada e meritocrática
+\end{conduta}
+
+%--- Seção 10: Disposições Finais -------------------------------------------
+\section{Disposições Finais}
+
+Este Código de Conduta é um instrumento vivo e poderá ser revisado conforme a evolução do grupo. Sua aceitação é implícita à participação nas atividades e espaços do grupo.
+
+%--- Espaço para assinaturas ------------------------------------------------
+\vspace{2cm}
+\begin{center}
+\rule{0.45\textwidth}{0.4pt}\hfill\rule{0.45\textwidth}{0.4pt}\\[0.3em]
+\small\color{gulecdGray}
+Assinatura dos membros fundadores
+\end{center}
+
+%============================================================================
+\end{document}
+%============================================================================

@@ -1,0 +1,276 @@
+%%============================================================================
+%% CARTA DE FUNDAÇÃO — Grupo de Usuários Linux e Software Livre -  Estatística e Ciência de Dados
+%%                     Universidade Federal do Paraná (UFPR)
+%%============================================================================
+%% Documento institucional — versão formal
+%% Compilar com: pdflatex carta-fundacao.tex  (ou xelatex / lualatex)
+%%============================================================================
+
+\documentclass[
+  12pt,          % tamanho base da fonte
+  a4paper,       % formato de papel
+  oneside,       % impressão frente única
+  brazil         % idioma principal: português do Brasil
+]{article}
+
+%---------------------------------------------------------------------------
+% Pacotes essenciais
+%---------------------------------------------------------------------------
+\usepackage[T1]{fontenc}            % codificação de fonte
+\usepackage[utf8]{inputenc}         % entrada UTF-8 (pdflatex)
+\usepackage{lmodern}                % fontes Latin Modern (vetoriais)
+\usepackage{microtype}              % microtipografia (melhora legibilidade)
+
+\usepackage[brazil]{babel}          % hifenização e nomes de seções em PT-BR
+
+\usepackage[
+  margin=2.5cm,
+  top=3cm,
+  bottom=3cm,
+  headheight=25pt
+]{geometry}                         % margens do documento
+
+\usepackage{setspace}               % controle de espaçamento entre linhas
+\usepackage{xcolor}                 % suporte a cores
+\usepackage{titlesec}               % formatação de títulos de seções
+\usepackage{titling}                % formatação do título do documento
+\usepackage{fancyhdr}               % cabeçalhos e rodapés personalizados
+\usepackage{enumitem}               % personalização de listas
+\usepackage{lettrine}               % capitulares (letra inicial decorada)
+\usepackage{graphicx}               % suporte a imagens (se necessário)
+\usepackage{hyperref}               % hiperlinks e metadados do PDF
+\usepackage{bookmark}               % bookmarks do PDF mais limpos
+
+%---------------------------------------------------------------------------
+% Cores institucionais
+%---------------------------------------------------------------------------
+\definecolor{gulecdBlue}{HTML}{1B3A5C}   % azul escuro institucional
+\definecolor{gulecdAccent}{HTML}{2E86AB} % azul de destaque
+\definecolor{gulecdGray}{HTML}{555555}   % cinza para texto secundário
+\definecolor{gulecdLight}{HTML}{F5F7FA}  % fundo claro para caixas
+\definecolor{gulecdRule}{HTML}{D0D5DD}   % cor de filetes e réguas
+
+%---------------------------------------------------------------------------
+% Metadados do PDF
+%---------------------------------------------------------------------------
+\hypersetup{
+  pdftitle    = {Carta de Fundação — GULECD/UFPR},
+  pdfauthor   = {Grupo de Usuários Linux e Software Livre - Estatística e Ciência de Dados UFPR},
+  pdfsubject  = {Carta de Fundação institucional do GULECD},
+  pdfkeywords = {carta de fundação, software livre, código aberto, ciência de dados, UFPR},
+  colorlinks  = true,
+  linkcolor   = gulecdAccent,
+  urlcolor    = gulecdAccent,
+  citecolor   = gulecdAccent
+}
+
+%---------------------------------------------------------------------------
+% Configurações tipográficas
+%---------------------------------------------------------------------------
+\onehalfspacing                     % espaçamento entre linhas = 1,5
+\setlength{\parindent}{1.5cm}       % recuo de parágrafo
+\setlength{\parskip}{0.5em}         % espaço entre parágrafos
+
+%---------------------------------------------------------------------------
+% Formato do título do documento
+%---------------------------------------------------------------------------
+\pretitle{%
+  \begin{center}
+  \vspace*{1cm}
+  \rule{\textwidth}{2pt}\vspace{0.3cm}\\
+  \LARGE\bfseries\color{gulecdBlue}
+}
+\posttitle{%
+  \\\vspace{0.3cm}
+  \rule{\textwidth}{2pt}
+  \end{center}
+  \vspace{0.5cm}
+}
+\preauthor{\begin{center}\large\color{gulecdGray}}
+\postauthor{\end{center}}
+\predate{\begin{center}\small\color{gulecdGray}}
+\postdate{\end{center}}
+
+%---------------------------------------------------------------------------
+% Formato das seções
+%---------------------------------------------------------------------------
+\titleformat{\section}
+  [block]
+  {\normalfont\Large\bfseries\color{gulecdBlue}}
+  {\thesection.}{0.8em}{}
+  [\vspace{0.2em}{\color{gulecdRule}\rule{\linewidth}{0.6pt}}]
+
+\titleformat{\subsection}
+  [block]
+  {\normalfont\large\bfseries\color{gulecdAccent}}
+  {\thesubsection.}{0.8em}{}
+
+\titlespacing*{\section}
+  {0pt}{2.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing*{\subsection}
+  {0pt}{2ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+%---------------------------------------------------------------------------
+% Cabeçalho e rodapé
+%---------------------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{gulecdGray}\textsc{GULECD/UFPR}}
+\fancyhead[R]{\small\color{gulecdGray}\textit{Carta de Fundação}}
+\fancyfoot[C]{\small\color{gulecdGray}---\ \thepage\ ---}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{%
+  \hbox to\headwidth{%
+    \color{gulecdRule}\leaders\hrule height \headrulewidth\hfill}}
+
+% Remove cabeçalho/rodapé da primeira página (será redefinido manualmente)
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\small\color{gulecdGray}---\ \thepage\ ---}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+%---------------------------------------------------------------------------
+% Ambiente personalizado para listas
+%---------------------------------------------------------------------------
+\newlist{conduta}{itemize}{1}
+\setlist[conduta]{
+  label      = {\color{gulecdAccent}\textbullet},
+  leftmargin = 1.5em,
+  itemsep    = 0.3em,
+  topsep     = 0.4em
+}
+
+%---------------------------------------------------------------------------
+% Informações do documento
+%---------------------------------------------------------------------------
+\title{Carta de Fundação\\[0.3em]
+  \Large\mdseries\color{gulecdGray}%
+  Grupo de Usuários Linux e Software Livre\\Estatística e Ciência de Dados\\Universidade Federal do Paraná (UFPR)}
+%\author{Grupo de Usuários Linux e Software Livre\\Curso de Estatística e Ciência de Dados --- UFPR}
+\date{\today}
+
+
+
+%============================================================================
+% INÍCIO DO DOCUMENTO
+%============================================================================
+\begin{document}
+
+%--- Capa / Título principal -------------------------------------------------
+\thispagestyle{empty}
+\maketitle
+
+\newpage
+
+%--- Seção 1: Introdução ----------------------------------------------------
+\section{Introdução}
+
+\lettrine[lines=3, lhang=0.1, nindent=0em, slope=-0.5em]{O}{ presente} documento formaliza a criação do Grupo de Usuários Linux e Código Aberto em Estatística e Ciência de Dados da Universidade Federal do Paraná (UFPR), constituído como uma iniciativa acadêmica e técnica voltada à promoção do uso de sistemas baseados em Linux, software livre e práticas abertas no contexto da ciência de dados, estatística e computação científica.
+
+Este grupo emerge da convergência entre a necessidade contemporânea de rigor metodológico, reprodutibilidade científica e autonomia tecnológica, e a maturidade do ecossistema de software livre como infraestrutura essencial para pesquisa, ensino e inovação. Nesse sentido, estabelece-se como um espaço de colaboração, formação técnica e produção científica, orientado por princípios formais expressos em seu Manifesto e regulado por seu Código de Conduta.
+
+%--- Seção 2: Justificativa -------------------------------------------------
+\section{Justificativa}
+
+A ciência de dados moderna depende intrinsecamente de ambientes computacionais complexos, frequentemente sustentados por software de código aberto. Sistemas operacionais baseados em Linux constituem a espinha dorsal de infraestruturas científicas, incluindo computação de alto desempenho, pipelines de bioinformática, aprendizado de máquina e engenharia de dados.
+
+Entretanto, observa-se, no contexto acadêmico, uma lacuna entre o uso instrumental dessas tecnologias e sua compreensão aprofundada, bem como uma dependência significativa de ferramentas proprietárias que limitam a auditabilidade, a reprodutibilidade e a autonomia dos pesquisadores.
+
+Diante desse cenário, a criação deste grupo justifica-se como um mecanismo de capacitação técnica, organização comunitária e promoção de práticas científicas alinhadas aos princípios do conhecimento aberto, visando formar profissionais capazes de operar, compreender e desenvolver soluções computacionais robustas, transparentes e eticamente fundamentadas.
+
+%--- Seção 3: Objetivos -----------------------------------------------------
+\section{Objetivos}
+
+\subsection{Objetivo Geral}
+
+Promover o uso, estudo e desenvolvimento de tecnologias baseadas em Linux e software livre no âmbito da Estatística e Ciência de Dados, fomentando a excelência técnica, a colaboração aberta e a produção científica reprodutível.
+
+\subsection{Objetivos Específicos}
+
+\begin{conduta}
+  \item Incentivar a adoção de sistemas Linux como ambiente primário de desenvolvimento científico
+  \item Promover o uso de ferramentas de código aberto em análise de dados, modelagem estatística e aprendizado de máquina
+  \item Capacitar membros em fundamentos computacionais, incluindo sistemas operacionais, redes, programação e infraestrutura
+  \item Estimular a produção e compartilhamento de código, dados e metodologias de forma aberta
+  \item Organizar eventos técnicos, workshops, grupos de estudo e projetos colaborativos
+  \item Fomentar práticas de reprodutibilidade científica e versionamento de experimentos
+  \item Estabelecer conexões com a comunidade open source e científica nacional e internacional
+\end{conduta}
+
+%--- Seção 4: Princípios Fundamentais ---------------------------------------
+\section{Princípios Fundamentais}
+
+O grupo orienta-se pelos princípios estabelecidos em seu Manifesto, que define os valores centrais relacionados à ciência aberta, software livre, colaboração e rigor científico. Todos os membros comprometem-se a atuar em conformidade com tais princípios.
+
+Adicionalmente, o funcionamento do grupo é regido por seu Código de Conduta, que estabelece normas de convivência, padrões de comportamento e mecanismos de mediação de conflitos, assegurando um ambiente respeitoso, inclusivo e produtivo.
+
+%--- Seção 5: Regras Estatutárias -------------------------------------------
+\section{Regras Estatutárias}
+
+\subsection{Natureza e Estrutura}
+
+O grupo constitui-se como uma organização acadêmica informal, sem fins lucrativos, de caráter colaborativo e voluntário, vinculada à comunidade discente do curso de Estatística e Ciência de Dados da Universidade Federal do Paraná (UFPR). No exercício de suas atividades, o grupo buscará atuar de forma integrada ao ecossistema institucional do curso, promovendo diálogo, cooperação e sinergia com outras estruturas discentes e docentes. Em particular, pretende estabelecer colaboração contínua com o Centro Acadêmico de Estatística (CAEST), com o grupo PET (Programa de Educação Tutorial) do curso de Estatística e Ciência de Dados da UFPR, com a coordenação do curso de Estatística e Ciência de Dados da UFPR e com o Departamento de Estatística da UFPR, contribuindo para o fortalecimento das atividades acadêmicas, a organização de eventos, a formação técnica dos estudantes e a ampliação do impacto científico e tecnológico no âmbito do curso. Essa interação deverá ocorrer de maneira autônoma, respeitosa e institucionalmente alinhada, preservando a independência do grupo ao mesmo tempo em que potencializa sua inserção e relevância na comunidade universitária.
+
+\subsection{Membros}
+
+São considerados membros todos os indivíduos que participam ativamente dos canais e atividades do grupo e que aceitam, explícita ou implicitamente, os termos desta Carta de Fundação, do Manifesto e do Código de Conduta.
+
+Não haverá distinção hierárquica rígida entre os membros no que se refere à produção técnica, à participação em discussões e à contribuição científica, sendo incentivada uma estrutura horizontal baseada em mérito, contribuição efetiva e responsabilidade compartilhada. Todavia, para fins de organização, continuidade institucional e execução coordenada das atividades, o grupo contará com uma Diretoria, composta por membros eleitos por meio de processo eleitoral periódico.
+
+A Diretoria será escolhida anualmente, mediante eleição conduzida de acordo com regras, critérios e procedimentos previamente definidos em regulamento específico, assegurando transparência, participação ampla e igualdade de condições entre os candidatos. Poderão candidatar-se membros ativos do grupo, sendo esperado histórico de contribuição, comprometimento com os princípios estabelecidos no Manifesto e adesão ao Código de Conduta.
+
+Compete à Diretoria a condução geral do grupo, incluindo planejamento e execução de atividades, organização de eventos, gestão dos canais e infraestrutura, mediação de questões administrativas e apoio à coordenação de projetos. A atuação da Diretoria deverá observar os princípios de transparência, prestação de contas e alinhamento com os valores do grupo, não implicando privilégio técnico ou científico sobre os demais membros, mas sim responsabilidade funcional e organizacional.
+
+\subsection{Organização e Governança}
+
+A organização do grupo será realizada por membros voluntários que assumam funções de coordenação, moderação e suporte técnico, incluindo:
+
+\begin{conduta}
+  \item Organização de atividades e eventos
+  \item Mediação de discussões e aplicação do Código de Conduta
+  \item Manutenção de infraestrutura digital (repositórios, canais, documentação)
+\end{conduta}
+
+Decisões relevantes poderão ser tomadas de forma coletiva, priorizando consenso e transparência.
+
+\subsection{Atividades}
+
+As atividades do grupo poderão incluir, mas não se limitam a:
+
+\begin{conduta}
+  \item Grupos de estudo e sessões técnicas
+  \item Desenvolvimento de projetos colaborativos
+  \item Workshops, palestras e minicursos
+  \item Produção de materiais didáticos e científicos
+  \item Participação em eventos acadêmicos e tecnológicos
+\end{conduta}
+
+\subsection{Uso de Infraestrutura}
+
+Os recursos e canais do grupo devem ser utilizados exclusivamente para fins acadêmicos, técnicos e colaborativos, em conformidade com os princípios do Manifesto e as normas do Código de Conduta.
+
+\subsection{Propriedade Intelectual}
+
+Projetos desenvolvidos no âmbito do grupo deverão, preferencialmente, adotar licenças de software livre e código aberto, garantindo liberdade de uso, modificação e distribuição, salvo quando explicitamente acordado de forma distinta entre os envolvidos.
+
+\subsection{Revisão e Atualização}
+
+Esta Carta de Fundação poderá ser revisada e atualizada conforme a evolução do grupo, mediante discussão e aprovação coletiva.
+
+%--- Seção 6: Disposição Final ----------------------------------------------
+\section{Disposição Final}
+
+A presente Carta de Fundação entra em vigor a partir de sua publicação e estabelece as bases institucionais, operacionais e éticas do Grupo de Usuários Linux e Código Aberto em Estatística e Ciência de Dados da UFPR, consolidando seu compromisso com a construção de uma comunidade técnica de excelência, orientada pela liberdade, pelo rigor científico e pela colaboração aberta.
+
+%--- Espaço para assinaturas ------------------------------------------------
+\vspace{2cm}
+\begin{center}
+\rule{0.45\textwidth}{0.4pt}\hfill\rule{0.45\textwidth}{0.4pt}\\[0.3em]
+\small\color{gulecdGray}
+Assinatura dos membros fundadores
+\end{center}
+
+%============================================================================
+\end{document}
+%============================================================================
