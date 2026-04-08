@@ -1,0 +1,607 @@
+%%============================================================================
+%% REGULAMENTO ELEITORAL — Grupo de Usuários Linux e Software Livre
+%%                         Estatística e Ciência de Dados - UFPR
+%%============================================================================
+
+\documentclass[
+  12pt,          % tamanho base da fonte
+  a4paper,       % formato de papel
+  oneside,       % impressão frente única
+  brazil         % idioma principal: português do Brasil
+]{article}
+
+%---------------------------------------------------------------------------
+% Pacotes essenciais
+%---------------------------------------------------------------------------
+\usepackage[T1]{fontenc}            % codificação de fonte
+\usepackage[utf8]{inputenc}         % entrada UTF-8 (pdflatex)
+\usepackage{lmodern}                % fontes Latin Modern (vetoriais)
+\usepackage{microtype}              % microtipografia (melhora legibilidade)
+
+\usepackage[brazil]{babel}          % hifenização e nomes de seções em PT-BR
+
+\usepackage[
+  margin=2.5cm,
+  top=3cm,
+  bottom=3cm,
+  headheight=25pt
+]{geometry}                         % margens do documento
+
+\usepackage{setspace}               % controle de espaçamento entre linhas
+\usepackage{xcolor}                 % suporte a cores
+\usepackage{titlesec}               % formatação de títulos de seções
+\usepackage{titling}                % formatação do título do documento
+\usepackage{fancyhdr}               % cabeçalhos e rodapés personalizados
+\usepackage{enumitem}               % personalização de listas
+\usepackage{lettrine}               % capitulares (letra inicial decorada)
+\usepackage{graphicx}               % suporte a imagens (se necessário)
+\usepackage{hyperref}               % hiperlinks e metadados do PDF
+\usepackage{bookmark}               % bookmarks do PDF mais limpos
+\usepackage{listings}               % listagem de código
+
+%---------------------------------------------------------------------------
+% Cores institucionais
+%---------------------------------------------------------------------------
+\definecolor{gulecdBlue}{HTML}{1B3A5C}   % azul escuro institucional
+\definecolor{gulecdAccent}{HTML}{2E86AB} % azul de destaque
+\definecolor{gulecdGray}{HTML}{555555}   % cinza para texto secundário
+\definecolor{gulecdLight}{HTML}{F5F7FA}  % fundo claro para caixas
+\definecolor{gulecdRule}{HTML}{D0D5DD}   % cor de filetes e réguas
+
+%---------------------------------------------------------------------------
+% Metadados do PDF
+%---------------------------------------------------------------------------
+\hypersetup{
+  pdftitle    = {Regulamento Eleitoral — GULECD/UFPR},
+  pdfauthor   = {Grupo de Usuários Linux em Estatística e Ciência de Dados - UFPR},
+  pdfsubject  = {Regulamento Eleitoral institucional do GULECD},
+  pdfkeywords = {regulamento eleitoral, software livre, código aberto, ciência de dados, UFPR},
+  colorlinks  = true,
+  linkcolor   = gulecdAccent,
+  urlcolor    = gulecdAccent,
+  citecolor   = gulecdAccent
+}
+
+%---------------------------------------------------------------------------
+% Configurações tipográficas
+%---------------------------------------------------------------------------
+\onehalfspacing                     % espaçamento entre linhas = 1,5
+\setlength{\parindent}{1.5cm}       % recuo de parágrafo
+\setlength{\parskip}{0.5em}         % espaço entre parágrafos
+
+%---------------------------------------------------------------------------
+% Formato do título do documento
+%---------------------------------------------------------------------------
+\pretitle{%
+  \begin{center}
+  \vspace*{1cm}
+  \rule{\textwidth}{2pt}\vspace{0.3cm}\\
+  \LARGE\bfseries\color{gulecdBlue}
+}
+\posttitle{%
+  \\\vspace{0.3cm}
+  \rule{\textwidth}{2pt}
+  \end{center}
+  \vspace{0.5cm}
+}
+\preauthor{\begin{center}\large\color{gulecdGray}}
+\postauthor{\end{center}}
+\predate{\begin{center}\small\color{gulecdGray}}
+\postdate{\end{center}}
+
+%---------------------------------------------------------------------------
+% Formato das seções
+%---------------------------------------------------------------------------
+\titleformat{\section}
+  [block]
+  {\normalfont\Large\bfseries\color{gulecdBlue}}
+  {\thesection.}{0.8em}{}
+  [\vspace{0.2em}{\color{gulecdRule}\rule{\linewidth}{0.6pt}}]
+
+\titleformat{\subsection}
+  [block]
+  {\normalfont\large\bfseries\color{gulecdAccent}}
+  {\thesubsection.}{0.8em}{}
+
+\titlespacing*{\section}
+  {0pt}{2.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing*{\subsection}
+  {0pt}{2ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+%---------------------------------------------------------------------------
+% Cabeçalho e rodapé
+%---------------------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{gulecdGray}\textsc{GULECD/UFPR}}
+\fancyhead[R]{\small\color{gulecdGray}\textit{Regulamento Eleitoral}}
+\fancyfoot[C]{\small\color{gulecdGray}---\ \thepage\ ---}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{%
+  \hbox to\headwidth{%
+    \color{gulecdRule}\leaders\hrule height \headrulewidth\hfill}}
+
+% Remove cabeçalho/rodapé da primeira página (será redefinido manualmente)
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\small\color{gulecdGray}---\ \thepage\ ---}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+%---------------------------------------------------------------------------
+% Aumentar profundidade máxima de listas
+%---------------------------------------------------------------------------
+\setlistdepth{6}
+
+%---------------------------------------------------------------------------
+% Ambiente personalizado para listas
+%---------------------------------------------------------------------------
+\newlist{conduta}{itemize}{4}
+\setlist[conduta,1]{
+  label      = {\color{gulecdAccent}\textbullet},
+  leftmargin = 1.5em,
+  itemsep    = 0.3em,
+  topsep     = 0.4em
+}
+\setlist[conduta,2]{
+  label      = {\color{gulecdAccent}\textendash},
+  leftmargin = 1.2em,
+  itemsep    = 0.2em,
+  topsep     = 0.3em
+}
+\setlist[conduta,3]{
+  label      = {\color{gulecdAccent}\cdot},
+  leftmargin = 1em,
+  itemsep    = 0.2em,
+  topsep     = 0.3em
+}
+\setlist[conduta,4]{
+  label      = {\color{gulecdAccent}-},
+  leftmargin = 0.8em,
+  itemsep    = 0.15em,
+  topsep     = 0.2em
+}
+
+%---------------------------------------------------------------------------
+% Ambiente para listas numeradas
+%---------------------------------------------------------------------------
+\newlist{numerado}{enumerate}{3}
+\setlist[numerado,1]{
+  label      = \arabic*.,
+  leftmargin = 1.5em,
+  itemsep    = 0.3em,
+  topsep     = 0.4em
+}
+\setlist[numerado,2]{
+  label      = \arabic*.,
+  leftmargin = 1.2em,
+  itemsep    = 0.2em,
+  topsep     = 0.3em
+}
+\setlist[numerado,3]{
+  label      = \arabic*.,
+  leftmargin = 1em,
+  itemsep    = 0.15em,
+  topsep     = 0.2em
+}
+
+%---------------------------------------------------------------------------
+% Configuração do listings para código
+%---------------------------------------------------------------------------
+\lstset{
+  basicstyle=\ttfamily\small,
+  backgroundcolor=\color{gulecdLight},
+  frame=single,
+  framerule=0.5pt,
+  rulecolor=\color{gulecdRule},
+  breaklines=true,
+  breakatwhitespace=true,
+  showstringspaces=false,
+  tabsize=2,
+  language=bash
+}
+
+%---------------------------------------------------------------------------
+% Informações do documento
+%---------------------------------------------------------------------------
+\title{Regulamento Eleitoral\\[0.3em]
+  \Large\mdseries\color{gulecdGray}%
+  Grupo de Usuários Linux e Software Livre\\Estatística e Ciência de Dados - UFPR}
+\date{\today}
+
+%============================================================================
+% INÍCIO DO DOCUMENTO
+%============================================================================
+\begin{document}
+
+%--- Capa / Título principal -------------------------------------------------
+\thispagestyle{empty}
+\maketitle
+
+\newpage
+
+%--- Seção 1: Disposições Gerais --------------------------------------------
+\section{Disposições Gerais}
+
+\lettrine[lines=3, lhang=0.1, nindent=0em, slope=-0.5em]{E}{ste} regulamento estabelece as bases formais para a condução do processo eleitoral do GULECD/UFPR, garantindo que a escolha de sua liderança ocorra de maneira transparente, participativa e alinhada aos princípios de organização horizontal e rigor institucional do grupo. Busca-se equilibrar simplicidade operacional com robustez normativa, assegurando legitimidade e continuidade organizacional.
+
+O presente documento estabelece as normas, procedimentos e diretrizes para a eleição da Coordenação do GULECD/UFPR, composta por:
+
+\begin{conduta}
+	\item 1 Coordenador
+	\item 1 Vice-Coordenador
+	\item Núcleo de Coordenação
+\end{conduta}
+
+A eleição será realizada anualmente, por meio de chapas, assegurando transparência, participação ampla e legitimidade democrática.
+
+%--- Seção 2: Estrutura da Chapa --------------------------------------------
+\section{Estrutura da Chapa}
+
+A estrutura em chapas tem como objetivo garantir coerência entre liderança e equipe de execução, permitindo que os membros escolham não apenas indivíduos isolados, mas um conjunto organizado de pessoas com visão comum para o grupo. Esse modelo favorece alinhamento estratégico e eficiência operacional desde o início do mandato.
+
+Cada chapa deverá obrigatoriamente conter:
+
+\begin{conduta}
+	\item 1 candidato a Coordenador
+	\item 1 candidato a Vice-Coordenador
+	\item Um conjunto de membros propostos para o Núcleo de Coordenação
+\end{conduta}
+
+\subsection{Núcleo de Coordenação}
+
+\begin{conduta}
+	\item Número livre de membros (recomendado: 3 a 8)
+	\item Estrutura horizontal, sem hierarquia interna
+	\item Função operacional e estratégica
+\end{conduta}
+
+%--- Seção 3: Atribuições dos Cargos ----------------------------------------
+\section{Atribuições dos Cargos}
+
+A definição clara das atribuições de cada função é essencial para evitar ambiguidades operacionais e garantir fluidez na execução das atividades do grupo. Ao mesmo tempo, busca-se preservar a horizontalidade do núcleo, concentrando a autoridade decisória apenas quando estritamente necessário.
+
+\subsection{Coordenador}
+
+\begin{conduta}
+	\item Conduzir o direcionamento geral do grupo
+	\item Atuar como ponto final de decisão em situações de impasse
+	\item Representar institucionalmente o grupo
+	\item Garantir alinhamento com o Manifesto e demais documentos
+	\item Supervisionar o funcionamento geral
+\end{conduta}
+
+\subsection{Vice-Coordenador}
+
+\begin{conduta}
+	\item Apoiar o Coordenador em todas as funções
+	\item Substituí-lo em sua ausência
+	\item Assumir responsabilidades delegadas
+	\item Auxiliar na articulação interna
+\end{conduta}
+
+\subsection{Núcleo de Coordenação}
+
+\begin{conduta}
+	\item Organizar e executar atividades do grupo
+	\item Propor iniciativas e projetos
+	\item Manter infraestrutura (GitHub, comunicação, etc.)
+	\item Apoiar novos membros
+	\item Participar de decisões estratégicas
+	\item Atuar de forma colaborativa e horizontal
+\end{conduta}
+
+%--- Seção 4: Responsabilidades da Chapa ------------------------------------
+\section{Responsabilidades da Chapa}
+
+A candidatura em chapa implica responsabilidade coletiva sobre a condução do grupo. Não se trata apenas da ocupação de funções, mas da apresentação de uma proposta coerente de atuação que demonstre capacidade organizacional, visão estratégica e compromisso com os princípios do grupo.
+
+Cada chapa deverá apresentar:
+
+\begin{conduta}
+	\item Uma proposta de atuação (plano de gestão)
+	\item Diretrizes para atividades do grupo durante o mandato
+	\item Estratégias para crescimento, organização e impacto
+	\item Compromisso com os princípios do Manifesto e Código de Conduta
+\end{conduta}
+
+%--- Seção 5: Elegibilidade -------------------------------------------------
+\section{Elegibilidade}
+
+A elegibilidade deve equilibrar abertura à participação com a necessidade de garantir comprometimento mínimo com o grupo. Assim, busca-se permitir candidaturas amplas, sem burocracia excessiva, mas incentivando que candidatos tenham histórico de envolvimento.
+
+Podem se candidatar:
+
+\begin{conduta}
+	\item Membros ativos do grupo
+	\item Participantes que demonstrem envolvimento e contribuição prévia
+\end{conduta}
+
+Não há restrição formal de tempo mínimo, mas recomenda-se histórico de participação.
+
+%--- Seção 6: Comissão Eleitoral --------------------------------------------
+\section{Comissão Eleitoral}
+
+A condução do processo eleitoral deve estar sob responsabilidade da gestão vigente, garantindo continuidade institucional e conhecimento do funcionamento interno do grupo. Ao mesmo tempo, essa condução deve ser pautada por neutralidade e transparência.
+
+A eleição será conduzida pela Coordenação atualmente em exercício, que atuará como comissão eleitoral responsável por:
+
+\begin{conduta}
+	\item Definir e divulgar o cronograma
+	\item Validar candidaturas
+	\item Garantir transparência do processo
+	\item Organizar a votação
+	\item Apurar e divulgar resultados
+\end{conduta}
+
+%--- Seção 7: Cronograma Eleitoral ------------------------------------------
+\section{Cronograma Eleitoral}
+
+A definição de um cronograma claro e previamente divulgado é fundamental para assegurar previsibilidade, participação adequada e organização do processo eleitoral. Os prazos abaixo estabelecem um ciclo equilibrado entre agilidade e espaço para discussão.
+
+O processo eleitoral deverá seguir o seguinte cronograma mínimo:
+
+\subsection{Abertura do Processo}
+
+\begin{conduta}
+	\item Divulgação oficial da eleição
+	\item Prazo: D - 21 dias
+\end{conduta}
+
+\subsection{Período de Inscrição de Chapas}
+
+\begin{conduta}
+	\item Duração: 7 dias
+	\item Submissão via:
+	\begin{conduta}
+		\item GitHub (issue no repositório apropriado), ou
+		\item Mensagem formal no grupo
+	\end{conduta}
+\end{conduta}
+
+A inscrição deve conter:
+
+\begin{conduta}
+	\item Nome da chapa
+	\item Composição completa
+	\item Plano de gestão
+\end{conduta}
+
+\subsection{Validação das Chapas}
+
+\begin{conduta}
+	\item Duração: até 2 dias
+	\item Verificação de conformidade
+\end{conduta}
+
+\subsection{Período de Campanha}
+
+\begin{conduta}
+	\item Duração: 7 dias
+	\item Apresentação de propostas
+	\item Discussões abertas no grupo
+\end{conduta}
+
+\subsection{Votação}
+
+\begin{conduta}
+	\item Duração: 2 dias
+	\item Realizada no grupo oficial de WhatsApp
+\end{conduta}
+
+\subsection{Apuração e Resultado}
+
+\begin{conduta}
+	\item Divulgação em até 24 horas após encerramento
+\end{conduta}
+
+%--- Seção 8: Processo de Votação -------------------------------------------
+\section{Processo de Votação}
+
+O processo de votação deve ser simples, acessível e transparente, garantindo que todos os membros possam participar sem barreiras técnicas, ao mesmo tempo em que assegura clareza na apuração dos resultados.
+
+\subsection{Forma de Votação}
+
+A votação será realizada por votação direta no grupo de WhatsApp, podendo ocorrer via:
+
+\begin{conduta}
+	\item Enquete nativa do WhatsApp, ou
+	\item Declaração explícita de voto (se necessário)
+\end{conduta}
+
+\subsection{Regras}
+
+\begin{conduta}
+	\item Cada membro tem direito a 1 voto
+	\item Voto não é transferível
+	\item Votação aberta e transparente
+\end{conduta}
+
+\subsection{Quórum}
+
+\begin{conduta}
+	\item Não há quórum mínimo obrigatório
+	\item Recomenda-se ampla participação
+\end{conduta}
+
+\subsection{Critério de Vitória}
+
+\begin{conduta}
+	\item Vence a chapa com maior número de votos
+	\item Em caso de empate:
+	\begin{conduta}
+		\item Nova votação entre as chapas empatadas
+	\end{conduta}
+\end{conduta}
+
+%--- Seção 9: Transparência -------------------------------------------------
+\section{Transparência}
+
+A transparência é um princípio central do processo eleitoral, garantindo confiança coletiva e legitimidade dos resultados. Todas as etapas devem ser documentadas e acessíveis aos membros, permitindo auditoria informal por qualquer participante.
+
+Para garantir integridade do processo:
+
+\begin{conduta}
+	\item Todas as etapas devem ser publicamente documentadas
+	\item As propostas devem ser acessíveis a todos os membros
+	\item Resultados devem ser divulgados de forma clara
+\end{conduta}
+
+Quando aplicável, pode-se utilizar o GitHub para:
+
+\begin{conduta}
+	\item Registro das chapas
+	\item Discussão de propostas
+	\item Arquivamento histórico
+\end{conduta}
+
+%--- Seção 10: Mandato ------------------------------------------------------
+\section{Mandato}
+
+A definição de mandato temporal claro permite renovação periódica da liderança e adaptação contínua do grupo, evitando concentração prolongada de poder e incentivando participação ativa de novos membros.
+
+\begin{conduta}
+	\item Duração: 1 ano
+	\item Início: imediatamente após a eleição
+	\item Possibilidade de reeleição sem limitação formal
+\end{conduta}
+
+%--- Seção 11: Vacância e Substituição --------------------------------------
+\section{Vacância e Substituição}
+
+Situações de vacância devem ser tratadas de forma objetiva para garantir continuidade das atividades e evitar desorganização institucional. A substituição deve seguir lógica simples e previsível.
+
+\begin{conduta}
+	\item O Vice-Coordenador assume em caso de vacância do Coordenador
+	\item O Núcleo pode ser parcialmente reconfigurado pela Coordenação
+	\item Em caso de vacância total, nova eleição deve ser convocada
+\end{conduta}
+
+%--- Seção 12: Registro de Chapas -------------------------------------------
+\section{Registro de Chapas}
+
+O processo de registro de chapas tem como objetivo garantir organização, transparência e rastreabilidade das candidaturas, utilizando a infraestrutura versionada do GitHub como mecanismo formal de submissão, documentação e auditoria. Essa abordagem assegura que todas as propostas estejam estruturadas, acessíveis e permanentemente registradas, em consonância com os princípios de abertura e reprodutibilidade adotados pelo grupo.
+
+A inscrição de chapas deverá ser realizada obrigatoriamente por meio do repositório oficial de eleições do grupo, seguindo o procedimento descrito abaixo.
+
+\subsection{Repositório de Registro}
+
+As chapas deverão utilizar o repositório:
+
+\begin{conduta}
+	\item \texttt{eleicoes-coordenacao}
+\end{conduta}
+
+Dentro deste repositório, cada processo eleitoral ocorrerá em um diretório específico, por exemplo:
+
+\begin{conduta}
+	\item \texttt{eleicao-gestao-01}
+\end{conduta}
+
+\subsection{Procedimento de Submissão}
+
+Para efetivar a inscrição, a chapa deverá:
+
+\begin{numerado}
+	\item Clonar o repositório:
+	\begin{lstlisting}
+git clone https://github.com/<org>/eleicoes-coordenacao.git
+    \end{lstlisting}
+	\item Navegar até o diretório da eleição vigente:
+	\begin{lstlisting}
+eleicao-gestao-01/
+    \end{lstlisting}
+	\item Criar um novo diretório com o nome da chapa, no formato:
+	\begin{lstlisting}
+chapaXX
+    \end{lstlisting}
+	onde \texttt{XX} corresponde ao número identificador da chapa.
+\end{numerado}
+
+\subsection{Estrutura Obrigatória}
+
+Dentro do diretório da chapa, deverão ser incluídos os seguintes documentos:
+
+\begin{conduta}
+	\item \textbf{Plano de gestão}
+	\item \textbf{Lista de membros}, contendo:
+	\begin{conduta}
+		\item Nome completo
+		\item Cargo (Coordenador, Vice-Coordenador, Núcleo de Coordenação)
+	\end{conduta}
+	\item \textbf{Mini-biografia de cada membro}
+	\item \textbf{Link para currículo Lattes de cada membro}
+\end{conduta}
+
+Todos os documentos devem:
+
+\begin{conduta}
+	\item Ser escritos em \textbf{LaTeX (.tex)}
+	\item Ser acompanhados das versões compiladas em:
+	\begin{conduta}
+		\item PDF (.pdf)
+		\item Markdown (.md)
+		\item HTML (.html)
+	\end{conduta}
+\end{conduta}
+
+\subsection{Submissão via Pull Request}
+
+Após a organização dos arquivos, a chapa deverá:
+
+\begin{numerado}
+	\item Realizar commit das alterações
+	\item Abrir um \textbf{Pull Request (PR)} para o repositório
+\end{numerado}
+
+A abertura do PR:
+
+\begin{conduta}
+	\item Constitui formalmente a \textbf{inscrição da chapa no processo eleitoral}
+	\item Define a \textbf{data oficial de inscrição}
+	\item Torna pública a candidatura e seus documentos
+\end{conduta}
+
+\subsection{Validação}
+
+A comissão eleitoral deverá:
+
+\begin{conduta}
+	\item Verificar a conformidade estrutural da submissão
+	\item Confirmar a presença de todos os documentos obrigatórios
+	\item Validar a elegibilidade da chapa
+\end{conduta}
+
+Caso haja inconsistências, a chapa poderá ser notificada para correção dentro do prazo de inscrição.
+
+\subsection{Transparência e Registro Permanente}
+
+Todos os registros de chapas:
+
+\begin{conduta}
+	\item Permanecerão disponíveis no repositório
+	\item Constituirão arquivo histórico das eleições
+	\item Poderão ser consultados livremente pelos membros
+\end{conduta}
+
+%--- Seção 13: Disposições Finais -------------------------------------------
+\section{Disposições Finais}
+
+Este regulamento deve ser entendido como um instrumento vivo, passível de aprimoramento conforme a evolução do grupo. Sua aplicação deve sempre priorizar os princípios fundamentais de abertura, participação, eficiência e responsabilidade coletiva.
+
+\begin{conduta}
+	\item Este regulamento poderá ser revisado mediante discussão coletiva
+	\item Situações não previstas serão resolvidas pela Coordenação vigente
+\end{conduta}
+
+%--- Espaço para assinaturas ------------------------------------------------
+\vspace{2cm}
+\begin{center}
+	\rule{0.45\textwidth}{0.4pt}\hfill\rule{0.45\textwidth}{0.4pt}\\[0.3em]
+	\small\color{gulecdGray}
+	Assinatura dos membros fundadores
+\end{center}
+
+%============================================================================
+\end{document}
+%============================================================================
