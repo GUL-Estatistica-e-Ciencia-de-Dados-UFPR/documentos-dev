@@ -47,8 +47,7 @@ title: |
 regulamento estabelece as bases formais para a condução do processo
 eleitoral do GULECD/UFPR, garantindo que a escolha de sua liderança
 ocorra de maneira transparente, participativa e alinhada aos princípios
-de organização horizontal e rigor institucional do grupo. Busca-se
-equilibrar simplicidade operacional com robustez normativa, assegurando
+de organização horizontal e rigor institucional, assegurando
 legitimidade e continuidade organizacional.
 
 O presente documento estabelece as normas, procedimentos e diretrizes
@@ -70,10 +69,9 @@ transparência, participação ampla e legitimidade democrática.
 # Estrutura da Chapa
 
 A estrutura em chapas tem como objetivo garantir coerência entre
-liderança e equipe de execução, permitindo que os membros escolham não
-apenas indivíduos isolados, mas um conjunto organizado de pessoas com
-visão comum para o grupo. Esse modelo favorece alinhamento estratégico e
-eficiência operacional desde o início do mandato.
+liderança e equipe de execução, incentivando que os membros escolham
+como liderança um conjunto organizado de pessoas com visão comum para o
+grupo.
 
 Cada chapa deverá obrigatoriamente conter:
 
@@ -101,10 +99,8 @@ Função operacional e estratégica
 
 # Atribuições dos Cargos
 
-A definição clara das atribuições de cada função é essencial para evitar
-ambiguidades operacionais e garantir fluidez na execução das atividades
-do grupo. Ao mesmo tempo, busca-se preservar a horizontalidade do
-núcleo, concentrando a autoridade decisória apenas quando estritamente
+Busca-se preservar a horizontalidade do conjunto de liderança,
+concentrando a autoridade decisória apenas quando estritamente
 necessário.
 
 ## Coordenador
@@ -118,8 +114,6 @@ Atuar como ponto final de decisão em situações de impasse
 Representar institucionalmente o grupo
 
 Garantir alinhamento com o Manifesto e demais documentos
-
-Supervisionar o funcionamento geral
 
 </div>
 
@@ -153,15 +147,17 @@ Participar de decisões estratégicas
 
 Atuar de forma colaborativa e horizontal
 
+Nota: as atribuições do Núcleo de Coordenação aplicam-se também ao
+Coordenador e ao Vice-Coordenador.
+
 </div>
 
 # Responsabilidades da Chapa
 
 A candidatura em chapa implica responsabilidade coletiva sobre a
-condução do grupo. Não se trata apenas da ocupação de funções, mas da
-apresentação de uma proposta coerente de atuação que demonstre
-capacidade organizacional, visão estratégica e compromisso com os
-princípios do grupo.
+condução do grupo, com apresentação de uma proposta coerente de atuação
+que demonstre capacidade organizacional, visão estratégica e compromisso
+com os princípios do grupo.
 
 Cada chapa deverá apresentar:
 
@@ -179,10 +175,8 @@ Compromisso com os princípios do Manifesto e Código de Conduta
 
 # Elegibilidade
 
-A elegibilidade deve equilibrar abertura à participação com a
-necessidade de garantir comprometimento mínimo com o grupo. Assim,
-busca-se permitir candidaturas amplas, sem burocracia excessiva, mas
-incentivando que candidatos tenham histórico de envolvimento.
+Permitem-se candidaturas amplas, sem burocracia excessiva, mas
+incentiva-se que candidatos tenham histórico de envolvimento.
 
 Podem se candidatar:
 
@@ -194,18 +188,16 @@ Participantes que demonstrem envolvimento e contribuição prévia
 
 </div>
 
-Não há restrição formal de tempo mínimo, mas recomenda-se histórico de
-participação.
+Não há restrição formal de tempo mínimo de participação no grupo.
 
 # Comissão Eleitoral
 
-A condução do processo eleitoral deve estar sob responsabilidade da
-gestão vigente, garantindo continuidade institucional e conhecimento do
-funcionamento interno do grupo. Ao mesmo tempo, essa condução deve ser
-pautada por neutralidade e transparência.
+A condução do processo eleitoral será responsabilidade da gestão
+vigente, garantindo continuidade institucional. Ao mesmo tempo, essa
+condução deve ser pautada por neutralidade e transparência.
 
-A eleição será conduzida pela Coordenação atualmente em exercício, que
-atuará como comissão eleitoral responsável por:
+A Coordenação atualmente em exercício atuará como comissão eleitoral
+responsável por:
 
 <div class="conduta">
 
@@ -223,11 +215,6 @@ Apurar e divulgar resultados
 
 # Cronograma Eleitoral
 
-A definição de um cronograma claro e previamente divulgado é fundamental
-para assegurar previsibilidade, participação adequada e organização do
-processo eleitoral. Os prazos abaixo estabelecem um ciclo equilibrado
-entre agilidade e espaço para discussão.
-
 O processo eleitoral deverá seguir o seguinte cronograma mínimo:
 
 ## Abertura do Processo
@@ -236,7 +223,7 @@ O processo eleitoral deverá seguir o seguinte cronograma mínimo:
 
 Divulgação oficial da eleição
 
-Prazo: D - 21 dias
+Prazo máximo: 30 dias antes da data de encerramento da gestão
 
 </div>
 
@@ -252,7 +239,8 @@ Submissão via:
 
 GitHub (issue no repositório apropriado), ou
 
-Mensagem formal no grupo
+Mensagem formal no grupo e envio dos dados necessários à atual
+coordenação
 
 </div>
 
@@ -346,9 +334,11 @@ Votação aberta e transparente
 
 <div class="conduta">
 
-Não há quórum mínimo obrigatório
+A atual coordenação deverá assegurar que mais de 90% dos membros do
+grupo foram informados da data de realização das eleições.
 
-Recomenda-se ampla participação
+Em caso de baixa participação (menos de 10% dos membros do grupo como
+votantes) deve-se realizar nova votação.
 
 </div>
 
@@ -370,10 +360,9 @@ Nova votação entre as chapas empatadas
 
 # Transparência
 
-A transparência é um princípio central do processo eleitoral, garantindo
-confiança coletiva e legitimidade dos resultados. Todas as etapas devem
-ser documentadas e acessíveis aos membros, permitindo auditoria informal
-por qualquer participante.
+A transparência é um princípio central do processo eleitoral. Todas as
+etapas devem ser documentadas e acessíveis aos membros, permitindo
+auditoria informal por qualquer participante.
 
 Para garantir integridade do processo:
 
@@ -387,7 +376,7 @@ Resultados devem ser divulgados de forma clara
 
 </div>
 
-Quando aplicável, pode-se utilizar o GitHub para:
+Deve-se utilizar o GitHub institucional do grupo para:
 
 <div class="conduta">
 
@@ -401,9 +390,9 @@ Arquivamento histórico
 
 # Mandato
 
-A definição de mandato temporal claro permite renovação periódica da
-liderança e adaptação contínua do grupo, evitando concentração
-prolongada de poder e incentivando participação ativa de novos membros.
+A definição de mandato temporal permite renovação periódica da liderança
+e adaptação contínua do grupo além de incentivar a participação ativa de
+novos membros.
 
 <div class="conduta">
 
@@ -417,15 +406,15 @@ Possibilidade de reeleição sem limitação formal
 
 # Vacância e Substituição
 
-Situações de vacância devem ser tratadas de forma objetiva para garantir
-continuidade das atividades e evitar desorganização institucional. A
-substituição deve seguir lógica simples e previsível.
-
 <div class="conduta">
 
 O Vice-Coordenador assume em caso de vacância do Coordenador
 
 O Núcleo pode ser parcialmente reconfigurado pela Coordenação
+
+Em caso de vacância do Coordenador e Vice-Coordenador o Núcleo de
+Coordenação pode eleger um novo Coodenador e Vice-Coordenador entre seus
+membros até o final da gestão da chapa.
 
 Em caso de vacância total, nova eleição deve ser convocada
 
@@ -435,15 +424,13 @@ Em caso de vacância total, nova eleição deve ser convocada
 
 O processo de registro de chapas tem como objetivo garantir organização,
 transparência e rastreabilidade das candidaturas, utilizando a
-infraestrutura versionada do GitHub como mecanismo formal de submissão,
-documentação e auditoria. Essa abordagem assegura que todas as propostas
-estejam estruturadas, acessíveis e permanentemente registradas, em
-consonância com os princípios de abertura e reprodutibilidade adotados
-pelo grupo.
+infraestrutura do GitHub como mecanismo formal de submissão,
+documentação e auditoria.
 
 A inscrição de chapas deverá ser realizada obrigatoriamente por meio do
-repositório oficial de eleições do grupo, seguindo o procedimento
-descrito abaixo.
+repositório oficial de eleições do grupo, mesmo se submetidas
+previamente via grupo de Whatsapp. Nesse caso, a atual coordenação fica
+responsável por submeter a inscrição via Github.
 
 ## Repositório de Registro
 
@@ -488,8 +475,8 @@ onde `XX` corresponde ao número identificador da chapa.
 
 ## Estrutura Obrigatória
 
-Dentro do diretório da chapa, deverão ser incluídos os seguintes
-documentos:
+Dentro do diretório da chapa, deverão ser incluídos as seguintes
+informações e documentos:
 
 <div class="conduta">
 
