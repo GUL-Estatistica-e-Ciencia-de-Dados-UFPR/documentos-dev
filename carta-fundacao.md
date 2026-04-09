@@ -1,5 +1,5 @@
 ---
-date: 2026-04-08
+date: 2026-04-09
 title: |
   Carta de Fundação  
   Grupo de Usuários Linux e Software Livre  
@@ -26,16 +26,16 @@ title: |
 # Introdução
 
 <span class="lettrine">O</span><span class="smallcaps"> presente</span>
-documento formaliza a criação do Grupo de Usuários Linux e Código Aberto
-em Estatística e Ciência de Dados da Universidade Federal do Paraná
-(UFPR), constituído como uma iniciativa acadêmica e técnica voltada à
-promoção do uso de sistemas baseados em Linux, software livre e práticas
-abertas no contexto da ciência de dados, estatística e computação
-científica.
+documento formaliza a criação do Grupo de Usuários Linux e Software
+Livre do curso de Estatística e Ciência de Dados da Universidade Federal
+do Paraná (UFPR), constituído como uma iniciativa acadêmica e técnica
+voltada à promoção do uso de sistemas baseados em Linux, *software*
+livre e práticas abertas no contexto da estatística, ciência de dados e
+computação científica.
 
 Este grupo emerge da convergência entre a necessidade contemporânea de
 rigor metodológico, reprodutibilidade científica e autonomia
-tecnológica, e a maturidade do ecossistema de software livre como
+tecnológica, e a maturidade do ecossistema de *software* livre como
 infraestrutura essencial para pesquisa, ensino e inovação. Nesse
 sentido, estabelece-se como um espaço de colaboração, formação técnica e
 produção científica, orientado por princípios formais expressos em seu
@@ -44,7 +44,7 @@ Manifesto e regulado por seu Código de Conduta.
 # Justificativa
 
 A ciência de dados moderna depende intrinsecamente de ambientes
-computacionais complexos, frequentemente sustentados por software de
+computacionais complexos, frequentemente sustentados por *software* de
 código aberto. Sistemas operacionais baseados em Linux constituem a
 espinha dorsal de infraestruturas científicas, incluindo computação de
 alto desempenho, *pipelines* de análise, aprendizado de máquina e
@@ -67,7 +67,7 @@ fundamentadas.
 ## Objetivo Geral
 
 Promover o uso, estudo e desenvolvimento de tecnologias baseadas em
-Linux e software livre no âmbito da Estatística e Ciência de Dados,
+Linux e *software* livre no âmbito da Estatística e Ciência de Dados,
 fomentando a excelência técnica, a colaboração aberta e a produção
 científica reprodutível.
 
@@ -87,21 +87,21 @@ operacionais, redes, programação e infraestrutura
 Estimular a produção e compartilhamento de código, dados e metodologias
 de forma aberta
 
-Organizar eventos técnicos, workshops, grupos de estudo e projetos
+Organizar eventos técnicos, *workshops*, grupos de estudo e projetos
 colaborativos
 
 Fomentar práticas de reprodutibilidade científica e versionamento de
 experimentos
 
-Estabelecer conexões com a comunidade open source e científica nacional
-e internacional
+Estabelecer conexões com a comunidade *open source* e científica
+nacional e internacional
 
 </div>
 
 # Princípios Fundamentais
 
 O grupo orienta-se pelos princípios estabelecidos em seu Manifesto, que
-define os valores centrais relacionados à ciência aberta, software
+define os valores centrais relacionados à ciência aberta, *software*
 livre, colaboração e rigor científico. Todos os membros comprometem-se a
 atuar em conformidade com tais princípios.
 
@@ -114,23 +114,23 @@ respeitoso, inclusivo e produtivo.
 
 ## Natureza e Estrutura
 
-O grupo constitui-se como uma organização acadêmica informal, sem fins
+O grupo constitui-se como uma organização acadêmica, sem fins
 lucrativos, de caráter colaborativo e voluntário, vinculada à comunidade
 discente do curso de Estatística e Ciência de Dados da Universidade
 Federal do Paraná (UFPR). No exercício de suas atividades, o grupo
 buscará atuar de forma integrada ao ecossistema institucional do curso,
 promovendo diálogo, cooperação e sinergia com outras estruturas
-discentes e docentes. Em particular, pretende estabelecer colaboração
-contínua com o Centro Acadêmico de Estatística (CAEST), com o grupo PET
-(Programa de Educação Tutorial) do curso de Estatística e Ciência de
-Dados da UFPR, com a coordenação do curso de Estatística e Ciência de
-Dados da UFPR e com o Departamento de Estatística da UFPR, contribuindo
-para o fortalecimento das atividades acadêmicas, a organização de
-eventos, a formação técnica dos estudantes e a ampliação do impacto
-científico e tecnológico no âmbito do curso. Essa interação deverá
-ocorrer de maneira autônoma, respeitosa e institucionalmente alinhada,
-preservando a independência do grupo ao mesmo tempo em que potencializa
-sua inserção e relevância na comunidade universitária.
+discentes e docentes, tais como: o Centro Acadêmico de Estatística
+(CAEST), o grupo PET (Programa de Educação Tutorial) do curso de
+Estatística e Ciência de Dados da UFPR, a coordenação do curso de
+Estatística e Ciência de Dados da UFPR e o Departamento de Estatística
+da UFPR. Estas interações visam o fortalecimento das atividades
+acadêmicas, a organização de eventos, a formação técnica dos estudantes
+e a ampliação do impacto científico e tecnológico no âmbito do curso.
+Tais cooperações deverão ocorrer de maneira autônoma, respeitosa e
+institucionalmente alinhada, preservando a independência do grupo ao
+mesmo tempo em que potencializa sua inserção e relevância na comunidade
+universitária.
 
 ## Membros
 
@@ -144,21 +144,21 @@ refere à produção técnica, à participação em discussões e à contribuiç
 científica, sendo incentivada uma estrutura horizontal baseada em
 mérito, contribuição efetiva e responsabilidade compartilhada. Todavia,
 para fins de organização, continuidade institucional e execução
-coordenada das atividades, o grupo contará com uma Diretoria, composta
-por membros eleitos por meio de processo eleitoral periódico.
+coordenada das atividades, o grupo contará com uma Coordenação, composta
+por membros eleitos através de processo eleitoral periódico.
 
-A Diretoria será escolhida anualmente, mediante eleição conduzida de
-acordo com regras, critérios e procedimentos previamente definidos em
-regulamento específico, assegurando transparência, participação ampla e
-igualdade de condições entre os candidatos. Poderão candidatar-se
-membros ativos do grupo, sendo esperado histórico de contribuição,
-comprometimento com os princípios estabelecidos no Manifesto e adesão ao
-Código de Conduta.
+A Coordenação será escolhida anualmente, mediante eleição conduzida de
+acordo com regras, critérios e procedimentos previamente definidos no
+Regulamento Eleitoral do grupo, assegurando transparência, participação
+ampla e igualdade de condições entre os candidatos. Poderão
+candidatar-se membros ativos do grupo, sendo esperado histórico de
+contribuição, comprometimento com os princípios estabelecidos no
+Manifesto e adesão ao Código de Conduta.
 
-Compete à Diretoria a condução geral do grupo, incluindo planejamento e
-execução de atividades, organização de eventos, gestão dos canais e
-infraestrutura, mediação de questões administrativas e apoio à
-coordenação de projetos. A atuação da Diretoria deverá observar os
+Compete à Coordenação a condução geral do grupo, incluindo planejamento
+e execução de atividades, organização de eventos, gerenciamento dos
+canais e infraestrutura, mediação de questões administrativas e apoio à
+coordenação de projetos. A atuação da Coordenação deverá observar os
 princípios de transparência, prestação de contas e alinhamento com os
 valores do grupo, não implicando privilégio técnico ou científico sobre
 os demais membros, mas sim responsabilidade funcional e organizacional.
@@ -170,12 +170,21 @@ assumam funções de coordenação, moderação e suporte técnico, incluindo:
 
 <div class="conduta">
 
-Organização de atividades e eventos
+Organização de projetos, atividades e eventos
 
 Mediação de discussões e aplicação do Código de Conduta
 
 Manutenção de infraestrutura digital (repositórios, canais,
 documentação)
+
+Realização de eleições da Coordenação
+
+Representação institucional do grupo
+
+Busca, manutenção e expansão de recursos de qualquer natureza com o
+objetivo de fomentar, sustentar e desenvolver as ações do grupo em
+acordo com os princípios do Manifesto, os objetivos descritos neste
+documento e em consonância com regras de seu Código de Conduta
 
 </div>
 
@@ -192,7 +201,7 @@ Grupos de estudo e sessões técnicas
 
 Desenvolvimento de projetos colaborativos
 
-Workshops, palestras e minicursos
+*Workshops*, palestras e minicursos
 
 Produção de materiais didáticos e científicos
 
@@ -209,9 +218,9 @@ princípios do Manifesto e as normas do Código de Conduta.
 ## Propriedade Intelectual
 
 Projetos desenvolvidos no âmbito do grupo deverão, preferencialmente,
-adotar licenças de software livre e código aberto, garantindo liberdade
-de uso, modificação e distribuição, salvo quando explicitamente acordado
-de forma distinta entre os envolvidos.
+adotar licenças de *software* livre e código aberto, garantindo
+liberdade de uso, modificação e distribuição, salvo quando
+explicitamente acordado de forma distinta entre os envolvidos.
 
 ## Revisão e Atualização
 
@@ -222,10 +231,10 @@ evolução do grupo, mediante discussão e aprovação coletiva.
 
 A presente Carta de Fundação entra em vigor a partir de sua publicação e
 estabelece as bases institucionais, operacionais e éticas do Grupo de
-Usuários Linux e Código Aberto em Estatística e Ciência de Dados da
-UFPR, consolidando seu compromisso com a construção de uma comunidade
-técnica de excelência, orientada pela liberdade, pelo rigor científico e
-pela colaboração aberta.
+Usuários Linux e Software Livre do curso de Estatística e Ciência de
+Dados da UFPR, consolidando seu compromisso com a construção de uma
+comunidade técnica de excelência, orientada pela liberdade, pelo rigor
+científico e pela colaboração aberta.
 
 <div class="center">
 

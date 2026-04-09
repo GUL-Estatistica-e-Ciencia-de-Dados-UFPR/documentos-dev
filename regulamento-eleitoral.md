@@ -1,5 +1,5 @@
 ---
-date: 2026-04-08
+date: 2026-04-09
 title: |
   Regulamento Eleitoral  
   Grupo de Usuários Linux e Software Livre  
@@ -69,9 +69,8 @@ transparência, participação ampla e legitimidade democrática.
 # Estrutura da Chapa
 
 A estrutura em chapas tem como objetivo garantir coerência entre
-liderança e equipe de execução, incentivando que os membros escolham
-como liderança um conjunto organizado de pessoas com visão comum para o
-grupo.
+liderança e equipe de execução, incentivando que os membros escolham um
+conjunto organizado de pessoas com visão comum para o grupo.
 
 Cada chapa deverá obrigatoriamente conter:
 
@@ -115,6 +114,9 @@ Representar institucionalmente o grupo
 
 Garantir alinhamento com o Manifesto e demais documentos
 
+Conduzir eticamente, eficientemente e de maneira transparente o uso de
+recursos de qualquer natureza do grupo
+
 </div>
 
 ## Vice-Coordenador
@@ -147,8 +149,10 @@ Participar de decisões estratégicas
 
 Atuar de forma colaborativa e horizontal
 
-Nota: as atribuições do Núcleo de Coordenação aplicam-se também ao
-Coordenador e ao Vice-Coordenador.
+Fiscalizar o uso adequado de recursos do grupo
+
+**Nota: as atribuições do Núcleo de Coordenação aplicam-se também ao
+Coordenador e ao Vice-Coordenador.**
 
 </div>
 
@@ -159,15 +163,13 @@ condução do grupo, com apresentação de uma proposta coerente de atuação
 que demonstre capacidade organizacional, visão estratégica e compromisso
 com os princípios do grupo.
 
-Cada chapa deverá apresentar:
+Cada chapa deverá:
 
 <div class="conduta">
 
-Uma proposta de atuação (plano de gestão)
-
-Diretrizes para atividades do grupo durante o mandato
-
-Estratégias para crescimento, organização e impacto
+Apresentar uma proposta de atuação (plano de gestão) contendo diretrizes
+para atividades do grupo durante o mandato e estratégias para
+crescimento, organização e impacto
 
 Compromisso com os princípios do Manifesto e Código de Conduta
 
@@ -175,7 +177,7 @@ Compromisso com os princípios do Manifesto e Código de Conduta
 
 # Elegibilidade
 
-Permitem-se candidaturas amplas, sem burocracia excessiva, mas
+Permitem-se candidaturas amplas, sem requisitos específicos, mas
 incentiva-se que candidatos tenham histórico de envolvimento.
 
 Podem se candidatar:
@@ -335,7 +337,7 @@ Votação aberta e transparente
 <div class="conduta">
 
 A atual coordenação deverá assegurar que mais de 90% dos membros do
-grupo foram informados da data de realização das eleições.
+grupo sejam informados da data de realização das eleições.
 
 Em caso de baixa participação (menos de 10% dos membros do grupo como
 votantes) deve-se realizar nova votação.
@@ -389,10 +391,6 @@ Arquivamento histórico
 </div>
 
 # Mandato
-
-A definição de mandato temporal permite renovação periódica da liderança
-e adaptação contínua do grupo além de incentivar a participação ativa de
-novos membros.
 
 <div class="conduta">
 
@@ -490,11 +488,9 @@ Nome completo
 
 Cargo (Coordenador, Vice-Coordenador, Núcleo de Coordenação)
 
+Mini-biografia de cada membro com link para o currículo Lattes
+
 </div>
-
-**Mini-biografia de cada membro**
-
-**Link para currículo Lattes de cada membro**
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-date: 2026-04-03
+date: 2026-04-09
 title: |
   Código de Conduta  
   Grupo de Usuários Linux e Softare Livre  
@@ -86,7 +86,7 @@ Interações externas representando o grupo
 
 # Responsabilidades da Moderação
 
-Os moderadores e organizadores são responsáveis por:
+Os moderadores e coordenadores são responsáveis por:
 
 <div class="conduta">
 
@@ -121,7 +121,7 @@ Encaminhamento institucional, quando aplicável
 # Denúncias
 
 Situações que violem este Código de Conduta devem ser reportadas aos
-moderadores ou organizadores do grupo. Todas as denúncias serão tratadas
+moderadores ou coordenadores do grupo. Todas as denúncias serão tratadas
 com seriedade, confidencialidade e diligência.
 
 # Princípios Científicos e Éticos

@@ -1,5 +1,5 @@
 ---
-date: 2026-04-03
+date: 2026-04-09
 title: |
   Manifesto do Grupo de Usuários Linux e Software Livre  
   Estatística e Ciência de Dados - UFPR
@@ -65,7 +65,7 @@ validação, inspeção e evolução contínua de ferramentas analíticas.
 ## III — Reprodutibilidade como princípio inegociável
 
 Toda análise deve ser passível de reprodução independente; priorizamos
-ambientes versionados, código documentado e pipelines auditáveis como
+ambientes versionados, código documentado e *pipelines* auditáveis como
 requisitos mínimos de rigor científico.
 
 ## IV — Autonomia tecnológica
@@ -95,7 +95,7 @@ limitações, garantindo integridade científica.
 ## VIII — Infraestrutura aberta e escalável
 
 Priorizamos o uso de ambientes Linux e ferramentas abertas para
-construção de pipelines robustos, escaláveis e eficientes, desde
+construção de *pipelines* robustos, escaláveis e eficientes, desde
 análises locais até sistemas distribuídos.
 
 ## IX — Ética no uso e compartilhamento de dados
