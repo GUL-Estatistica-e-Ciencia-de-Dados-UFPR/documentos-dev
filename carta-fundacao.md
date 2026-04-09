@@ -1,5 +1,5 @@
 ---
-date: 2026-04-03
+date: 2026-04-08
 title: |
   Carta de Fundação  
   Grupo de Usuários Linux e Software Livre  
@@ -47,7 +47,7 @@ A ciência de dados moderna depende intrinsecamente de ambientes
 computacionais complexos, frequentemente sustentados por software de
 código aberto. Sistemas operacionais baseados em Linux constituem a
 espinha dorsal de infraestruturas científicas, incluindo computação de
-alto desempenho, pipelines de bioinformática, aprendizado de máquina e
+alto desempenho, *pipelines* de análise, aprendizado de máquina e
 engenharia de dados.
 
 Entretanto, observa-se, no contexto acadêmico, uma lacuna entre o uso
