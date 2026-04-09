@@ -130,17 +130,6 @@ Após aprovação:
 GPL 3.0
 
 ---
-
-## 🧭 Princípios
-
-Este repositório segue:
-
-- Transparência  
-- Rigor técnico  
-- Colaboração aberta  
-- Versionamento completo  
-- Evolução contínua  
-
 ---
 
 ## 📢 Participação
