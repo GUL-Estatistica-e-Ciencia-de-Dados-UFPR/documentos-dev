@@ -10,8 +10,8 @@ title: |
 - [Estrutura da Chapa](#estrutura-da-chapa)
   - [Núcleo de Coordenação](#núcleo-de-coordenação)
 - [Atribuições dos Cargos](#atribuições-dos-cargos)
-  - [Coordenador](#coordenador)
-  - [Vice-Coordenador](#vice-coordenador)
+  - [Coordenador Representativo](#coordenador-representativo)
+  - [Vice-Coordenador Representativo](#vice-coordenador-representativo)
   - [Núcleo de Coordenação](#núcleo-de-coordenação-1)
 - [Responsabilidades da Chapa](#responsabilidades-da-chapa)
 - [Elegibilidade](#elegibilidade)
@@ -63,7 +63,7 @@ Núcleo de Coordenação
 
 </div>
 
-A eleição será realizada anualmente, por meio de chapas, assegurando
+A eleição será realizada anualmente, por meio de chapas, visando
 transparência, participação ampla e legitimidade democrática.
 
 # Estrutura da Chapa
@@ -82,7 +82,7 @@ Cada chapa deverá obrigatoriamente conter:
 Representativo)
 
 Um conjunto de membros para o Núcleo de Coordenação (Definidos como
-Coordenadores)
+Coordenadores Associados)
 
 </div>
 
@@ -104,7 +104,7 @@ Busca-se preservar a horizontalidade do conjunto de liderança,
 concentrando a autoridade decisória no Coordenador Representativo apenas
 quando estritamente necessário.
 
-## Coordenador
+## Coordenador Representativo
 
 <div class="conduta">
 
@@ -121,11 +121,11 @@ recursos de qualquer natureza do grupo
 
 </div>
 
-## Vice-Coordenador
+## Vice-Coordenador Representativo
 
 <div class="conduta">
 
-Apoiar o Coordenador em todas as funções
+Apoiar o Coordenador Representativo em todas as funções
 
 Substituí-lo em sua ausência
 
@@ -163,19 +163,8 @@ Coordenador Representativo e ao Vice-Coordenador Representativo.**
 A candidatura em chapa implica responsabilidade coletiva sobre a
 condução do grupo, com apresentação de uma proposta coerente de atuação
 que demonstre capacidade organizacional, visão estratégica e compromisso
-com os princípios do grupo.
-
-Cada chapa deverá:
-
-<div class="conduta">
-
-Apresentar uma proposta de atuação (plano de gestão) contendo diretrizes
-para atividades do grupo durante o mandato e estratégias para
-crescimento, organização e impacto
-
-Compromisso com os princípios do Manifesto e Código de Conduta
-
-</div>
+com os princípios do Manifesto, Carta de Fundação e Código de Conduta do
+grupo.
 
 # Elegibilidade
 
@@ -200,8 +189,7 @@ A condução do processo eleitoral será responsabilidade da gestão
 vigente, garantindo continuidade institucional. Ao mesmo tempo, essa
 condução deve ser pautada por neutralidade e transparência.
 
-A Coordenação atualmente em exercício atuará como comissão eleitoral
-responsável por:
+A Coordenação em exercício será responsável por:
 
 <div class="conduta">
 
@@ -215,6 +203,8 @@ Organizar a votação
 
 Apurar e divulgar resultados
 
+Conduzir o processo de transição
+
 </div>
 
 # Cronograma Eleitoral
@@ -227,7 +217,7 @@ O processo eleitoral deverá seguir o seguinte cronograma mínimo:
 
 Divulgação oficial da eleição
 
-Prazo máximo: 30 dias antes da data de encerramento da gestão
+Prazo máximo: 30 dias antes da data de encerramento da gestão vigente
 
 </div>
 
@@ -241,8 +231,9 @@ Submissão via:
 
 <div class="conduta">
 
-GitHub (abertura de *issue* no repositório apropriado) e *Pull Request*
-com os documentos e dados requisitados, ou
+GitHub ou outro sistema de gerenciamento Git em uso pelo grupo -
+(abertura de *issue* no repositório apropriado) e *Pull Request* com os
+documentos e dados requisitados, ou
 
 Mensagem formal no grupo e envio dos documentos necessários à atual
 coordenação
@@ -263,9 +254,8 @@ de cada membro, seu cargo pretendido e link para o Currículo Lattes
 Um documento declarando conhecimento sobre o conteúdo do Manifesto e
 Código de Conduta do grupo
 
-Os documentos devem ser digitalmente assinados por todos os membros da
-chapa através de método que permita o reconhecimento de autenticidade e
-concordância
+Os documentos devem ser digitalmente via PGP por todos os membros da
+chapa visando reconhecimento de autenticidade e concordância
 
 </div>
 
@@ -321,8 +311,8 @@ documento com o resultado da apuração
 
 O resultado da eleição com a lista dos membros eleitos também deverá ser
 formalmente comunicado a todos os parceiros institucionais do grupo
-através de mensagem contendo o nome e dados de contato de todos os
-membros da chapa.
+através de mensagem contendo o nome e dados de contato dos membros da
+chapa vencedora.
 
 </div>
 
@@ -399,8 +389,7 @@ Os resultados devem ser divulgados de forma clara
 </div>
 
 Deve-se utilizar o GitHub institucional (ou outro sistema de
-gerenciamento colaborativo Git formalmente estabelecido pelo grupo)
-para:
+gerenciamento Git formalmente estabelecido pelo grupo) para:
 
 <div class="conduta">
 
@@ -418,17 +407,24 @@ Arquivamento histórico
 
 Duração: 1 ano
 
-Início: imediatamente após a eleição
+Início: imediatamente após a eleição com um período de transição de 30
+dias para colaboração com a coordenação anterior
 
 Possibilidade de reeleição sem limitação formal
 
-Ao fim do mandato a coordenação deverá repassar à nova coordenação todas
-as senhas de acesso a sistemas do grupo assim como documentos, dados e
-outras informações relevantes
+Em até 3 dias do início do período de transição de mandato a antiga
+coordenação deverá repassar à nova coordenação todas as senhas de acesso
+a sistemas do grupo, assim como equipamentos, objetos, documentos, dados
+e informações/arquivos pertencentes ou relevantes para o GULECD/UFPR
+
+Ao fim do período de transição de 30 dias a nova Coordenação deverá
+trocar as senhas de acesso a sistemas do grupo, ficando inteiramente
+responsável pela sua administração e segurança
 
 Espera-se que os membros da antiga coordenação auxiliem a nova
-coodenação durante o período inicial de gestão, compartilhando
-informações e mantendo uma relação de colaboração
+coodenação durante o período de transição, compartilhando informações e
+mantendo uma relação de colaboração e cordialidade próprias da cultura
+do grupo
 
 </div>
 
@@ -464,7 +460,7 @@ Em caso de vacância total, nova eleição deve ser convocada
 
 O processo de registro de chapas tem como objetivo garantir organização,
 transparência e rastreabilidade das candidaturas, utilizando a
-infraestrutura do GitHub (ou outro sistema de colaboração Git em uso
+infraestrutura do GitHub (ou outro sistema de gerenciamento Git em uso
 pelo grupo) como mecanismo formal de submissão, documentação e
 auditoria.
 
@@ -522,15 +518,18 @@ informações e documentos:
 
 <div class="conduta">
 
-**Plano de Gestão - ChapaXX**: Documento com a descrição das ações,
-atividades e projetos pretendidos, contendo o nome e número da chapa
+**Plano de Gestão - ChapaXX**: Documento com a descrição das ações e
+projetos pretendidos bem como diretrizes para atividades do grupo
+durante o mandato e estratégias para crescimento, organização e impacto.
+O documento deverá conter claramente o nome e número da chapa
 
 **Composição - ChapaXX**: Documento contendo a composição completa da
 chapa, incluindo uma mini-biografia de cada membro, seu cargo pretendido
 e link para o Currículo Lattes
 
 **Declaração de Conhecimento - ChapaXX**: Documento declarando
-conhecimento sobre o conteúdo do Manifesto e Código de Conduta do grupo
+conhecimento sobre o conteúdo do Manifesto, Carta de Fundação e Código
+de Conduta do grupo
 
 </div>
 
@@ -593,9 +592,13 @@ Confirmar a presença de todos os documentos obrigatórios
 
 Validar a elegibilidade da chapa
 
-Submeter os documentos de inscrição ao repositório apropriado para
-chapas que fizerem a inscrição via submissão pública nos canais de
-comunicação do grupo ou envio direto dos documentos à atual coordenação
+Submeter os documentos de inscrição ao repositório apropriado. Este
+procedimento será realizado para chapas que fizerem a inscrição via
+submissão pública nos canais de comunicação do grupo ou envio direto dos
+documentos à atual coordenação. A submissão pode ser feita pela
+coordenação via commit direto sem a necessidade de abertura de um *Pull
+request*. Neste caso a data de *commit* feita pela coordenação
+corresponde a data oficial de inscrição da chapa solicitante.
 
 </div>
 
