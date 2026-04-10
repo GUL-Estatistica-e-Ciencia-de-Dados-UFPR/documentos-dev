@@ -75,11 +75,11 @@ científica reprodutível.
 
 <div class="conduta">
 
-Incentivar a adoção de sistemas Linux como ambiente primário de
-desenvolvimento científico
+Incentivar a adoção de sistemas Linux e outros sistemas operacionais de
+código aberto como ambiente primário de desenvolvimento científico
 
 Promover o uso de ferramentas de código aberto em análise de dados,
-modelagem estatística e aprendizado de máquina
+engenharia de dados, modelagem estatística e aprendizado de máquina
 
 Capacitar membros em fundamentos computacionais, incluindo sistemas
 operacionais, redes, programação e infraestrutura
@@ -125,7 +125,7 @@ buscará atuar de forma integrada ao ecossistema institucional do curso,
 promovendo diálogo, cooperação e sinergia com outras estruturas
 discentes e docentes, tais como: o Centro Acadêmico de Estatística
 (CAEST), o grupo PET (Programa de Educação Tutorial) do curso de
-Estatística e Ciência de Dados da UFPR, a coordenação do curso de
+Estatística e Ciência de Dados da UFPR, a coordenação do Curso de
 Estatística e Ciência de Dados da UFPR e o Departamento de Estatística
 da UFPR. Estas interações visam o fortalecimento das atividades
 acadêmicas, a organização de eventos, a formação técnica dos estudantes
@@ -165,13 +165,16 @@ representação institucional e apoio à coordenação de projetos. A atuação
 da Coordenação deverá observar os princípios de transparência, prestação
 de contas e alinhamento com os valores do grupo, não implicando
 privilégio executivo, técnico ou científico sobre os demais membros, mas
-sim responsabilidade funcional e organizacional. Também compete à
-Coordenação estimular e apoiar os membros a desenvolver ações de maneira
-autônoma no contexto do grupo, provendo adequado ambiente institucional
-e demais tipos de suporte, mantendo claro que não é privilégio ou
-direito exclusivo da Coordenação a iniciativa e execução de atividades e
-projetos. Tal participação constitui fundamento pétreo do grupo,
-assegurando sua continuidade e relevância.
+sim responsabilidade funcional e organizacional.
+
+Também compete à Coordenação estimular e apoiar os membros a desenvolver
+ações de maneira autônoma no contexto do grupo, provendo adequado
+ambiente institucional e demais tipos de suporte, mantendo claro que não
+é privilégio ou direito exclusivo da Coordenação a iniciativa e execução
+de atividades e projetos.
+
+Tal participação constitui fundamento pétreo do grupo, assegurando sua
+continuidade e relevância.
 
 ## Organização e Governança
 
