@@ -4,9 +4,9 @@
 
 Este repositório contém os **documentos institucionais em desenvolvimento** do Grupo de Usuários Linux e Software Livre da UFPR.
 
-Todos os documentos aqui estão em **formato LaTeX (.tex)** e representam a **fonte primária** a partir da qual serão geradas versões em PDF, Markdown e HTML.
+Os documentos a serem editados estão em **formato LaTeX (.tex)** e representam a **fonte primária** a partir da qual serão geradas versões em PDF, Markdown e HTML.
 
-⚠️ Este não é o repositório oficial. Os conteúdos aqui **não são versões finais**.
+⚠️ Os conteúdos aqui **não são versões finais**.
 
 As versões finais depois de aprovadas pelos membros do grupo serão publicadas no repositório (`documentos-referendados`).
 
@@ -24,24 +24,11 @@ Este repositório existe para:
 
 ---
 
-## ⚠️ Status dos Documentos
-
-Todos os documentos neste repositório:
-
-- Estão **em edição ativa**  
-- Podem ser alterados a qualquer momento  
-- **Não são oficiais**  
-- Representam propostas ou versões de trabalho  
-
-As versões oficiais e vigentes estarão em (`documentos-referendados`).
-
----
-
 ## 🔄 Como Contribuir
 
-Para editar qualquer documento, siga obrigatoriamente o fluxo abaixo:
+Para editar qualquer documento, siga o fluxo abaixo:
 
-NOTA: Você pode também apenas abrir uma issue e marcar a a coordenação com (`@GUL-Estatistica-e-Ciencia-de-Dados-UFPR/coordenacao`) indicando suas sugestões e/ou mudanças. Lembre de indicar qual documento suas mudanças se referem e detalhar suas sugestões.
+NOTA: Você pode também abrir uma issue e marcar a a coordenação com (`@GUL-Estatistica-e-Ciencia-de-Dados-UFPR/coordenacao`) indicando suas sugestões e/ou mudanças. Lembre de indicar qual documento suas mudanças se referem e detalhar suas sugestões.
 
 ### 1. Clonar o repositório
 
@@ -59,8 +46,6 @@ git checkout -b nome-da-sua-alteracao
 ### 3. Editar os arquivos
 
 - Modifique os arquivos `.tex`  
-- Mantenha consistência e clareza  
-- Evite mudanças não justificadas  
 
 ### 4. Commit
 
@@ -88,11 +73,9 @@ Antes ou junto ao PR, crie uma **issue** contendo:
 ## 📋 Regras de Edição
 
 - Usar **LaTeX estruturado e limpo**  
-- Manter linguagem formal e técnica  
-- Evitar redundância e ambiguidade  
-- Preservar coerência entre documentos  
+- Manter linguagem formal e técnica   
 - Alinhar sempre com o Manifesto e o Código de Conduta  
-- Toda alteração deve ter **justificativa explícita**  
+- Toda alteração deve ter **justificativa**  
 
 ---
 
@@ -117,9 +100,9 @@ Consulte o fonte do makefile para mais opções.
 
 ## 📍 Relação com o Repositório Oficial
 
-Após aprovação:
+Após aprovação do grupo:
 
-- O documento pode ser promovido para o repositório oficial  
+- O documento será promovido para o repositório oficial  
 - Torna-se uma versão **vigente**  
 - Este repositório continua como ambiente de desenvolvimento  
 
