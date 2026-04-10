@@ -43,12 +43,12 @@ Manifesto e regulado por seu Código de Conduta.
 
 # Justificativa
 
-A ciência de dados moderna depende intrinsecamente de ambientes
-computacionais complexos, frequentemente sustentados por *software* de
-código aberto. Sistemas operacionais baseados em Linux constituem a
-espinha dorsal de infraestruturas científicas, incluindo computação de
-alto desempenho, *pipelines* de análise de dados, aprendizado de máquina
-e engenharia de dados.
+A Estatística e Ciência de Dados moderna depende intrinsecamente de
+ambientes computacionais complexos, frequentemente sustentados por
+*software* de código aberto. Sistemas operacionais baseados em Linux
+constituem a espinha dorsal de infraestruturas científicas, incluindo
+computação de alto desempenho, *pipelines* de análise de dados,
+aprendizado de máquina e engenharia de dados.
 
 Entretanto, observa-se, no contexto acadêmico, uma lacuna entre o uso
 instrumental dessas tecnologias e sua compreensão aprofundada, bem como
