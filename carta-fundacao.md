@@ -50,10 +50,11 @@ constituem a espinha dorsal de infraestruturas científicas, incluindo
 computação de alto desempenho, *pipelines* de análise de dados,
 aprendizado de máquina e engenharia de dados.
 
-Entretanto, observa-se, no contexto acadêmico, uma lacuna entre o uso
-instrumental dessas tecnologias e sua compreensão aprofundada, bem como
-uma dependência significativa de ferramentas proprietárias que limitam a
-auditabilidade, a reprodutibilidade e a autonomia dos pesquisadores.
+Entretanto, observa-se uma lacuna entre o uso instrumental dessas
+tecnologias e sua compreensão aprofundada, bem como uma dependência
+significativa de ferramentas proprietárias que limitam a auditabilidade,
+a reprodutibilidade e a autonomia de estudantes, professores
+pesquisadores e profissionais.
 
 Diante desse cenário, a criação deste grupo justifica-se como um
 mecanismo de capacitação técnica, organização comunitária e promoção de
