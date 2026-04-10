@@ -1,5 +1,5 @@
 ---
-date: 2026-04-09
+date: 2026-04-10
 title: |
   Carta de Fundação  
   Grupo de Usuários Linux e Software Livre  
@@ -47,8 +47,8 @@ A ciência de dados moderna depende intrinsecamente de ambientes
 computacionais complexos, frequentemente sustentados por *software* de
 código aberto. Sistemas operacionais baseados em Linux constituem a
 espinha dorsal de infraestruturas científicas, incluindo computação de
-alto desempenho, *pipelines* de análise, aprendizado de máquina e
-engenharia de dados.
+alto desempenho, *pipelines* de análise de dados, aprendizado de máquina
+e engenharia de dados.
 
 Entretanto, observa-se, no contexto acadêmico, uma lacuna entre o uso
 instrumental dessas tecnologias e sua compreensão aprofundada, bem como
@@ -95,6 +95,9 @@ experimentos
 
 Estabelecer conexões com a comunidade *open source* e científica
 nacional e internacional
+
+Contribuir para uma infraestrutura digital própria para o Curso de
+Estatística e Ciência de Dados da UFPR baseada em Linux e Software Livre
 
 </div>
 
@@ -157,11 +160,18 @@ Manifesto e adesão ao Código de Conduta.
 
 Compete à Coordenação a condução geral do grupo, incluindo planejamento
 e execução de atividades, organização de eventos, gerenciamento dos
-canais e infraestrutura, mediação de questões administrativas e apoio à
-coordenação de projetos. A atuação da Coordenação deverá observar os
-princípios de transparência, prestação de contas e alinhamento com os
-valores do grupo, não implicando privilégio técnico ou científico sobre
-os demais membros, mas sim responsabilidade funcional e organizacional.
+canais e infraestrutura, mediação de questões administrativas,
+representação institucional e apoio à coordenação de projetos. A atuação
+da Coordenação deverá observar os princípios de transparência, prestação
+de contas e alinhamento com os valores do grupo, não implicando
+privilégio executivo, técnico ou científico sobre os demais membros, mas
+sim responsabilidade funcional e organizacional. Também compete à
+Coordenação estimular e apoiar os membros a desenvolver ações de maneira
+autônoma no contexto do grupo, provendo adequado ambiente institucional
+e demais tipos de suporte, mantendo claro que não é privilégio ou
+direito exclusivo da Coordenação a iniciativa e execução de atividades e
+projetos. Tal participação constitui fundamento pétreo do grupo,
+assegurando sua continuidade e relevância.
 
 ## Organização e Governança
 
@@ -184,7 +194,7 @@ Representação institucional do grupo
 Busca, manutenção e expansão de recursos de qualquer natureza com o
 objetivo de fomentar, sustentar e desenvolver as ações do grupo em
 acordo com os princípios do Manifesto, os objetivos descritos neste
-documento e em consonância com regras de seu Código de Conduta
+documento e em consonância com as regras de seu Código de Conduta
 
 </div>
 
@@ -207,6 +217,9 @@ Produção de materiais didáticos e científicos
 
 Participação em eventos acadêmicos e tecnológicos
 
+Promoção ativa do uso de sistemas Linux e outros projetos de *software*
+livre e código aberto
+
 </div>
 
 ## Uso de Infraestrutura
@@ -217,10 +230,9 @@ princípios do Manifesto e as normas do Código de Conduta.
 
 ## Propriedade Intelectual
 
-Projetos desenvolvidos no âmbito do grupo deverão, preferencialmente,
+Projetos desenvolvidos no âmbito do grupo deverão, obrigatoriamente,
 adotar licenças de *software* livre e código aberto, garantindo
-liberdade de uso, modificação e distribuição, salvo quando
-explicitamente acordado de forma distinta entre os envolvidos.
+liberdade de uso, modificação e distribuição.
 
 ## Revisão e Atualização
 

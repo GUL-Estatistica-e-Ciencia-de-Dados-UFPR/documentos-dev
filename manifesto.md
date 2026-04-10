@@ -1,5 +1,5 @@
 ---
-date: 2026-04-09
+date: 2026-04-10
 title: |
   Manifesto do Grupo de Usuários Linux e Software Livre  
   Estatística e Ciência de Dados - UFPR
@@ -32,7 +32,7 @@ title: |
 
 <span class="lettrine">E</span><span class="smallcaps">ste</span> grupo
 nasce da convergência entre a tradição científica da Estatística e da
-Ciência de Dados e a filosofia do software livre que sustenta o
+Ciência de Dados e a filosofia do *software* livre que sustenta o
 ecossistema Linux.
 
 Reconhecemos que a produção de conhecimento rigoroso, verificável e
@@ -65,8 +65,8 @@ validação, inspeção e evolução contínua de ferramentas analíticas.
 ## III — Reprodutibilidade como princípio inegociável
 
 Toda análise deve ser passível de reprodução independente; priorizamos
-ambientes versionados, código documentado e *pipelines* auditáveis como
-requisitos mínimos de rigor científico.
+ambientes versionados, código documentado e *pipelines* de análise de
+dados auditáveis como requisitos mínimos de rigor científico.
 
 ## IV — Autonomia tecnológica
 
@@ -95,8 +95,8 @@ limitações, garantindo integridade científica.
 ## VIII — Infraestrutura aberta e escalável
 
 Priorizamos o uso de ambientes Linux e ferramentas abertas para
-construção de *pipelines* robustos, escaláveis e eficientes, desde
-análises locais até sistemas distribuídos.
+construção de *softwares* e *pipelines* analíticos robustos, escaláveis
+e eficientes, desde ambientes locais até sistemas distribuídos.
 
 ## IX — Ética no uso e compartilhamento de dados
 
@@ -106,7 +106,7 @@ não comprometa direitos individuais.
 
 ## X — Compromisso com impacto científico e social
 
-Utilizamos ciência de dados e software livre como instrumentos para
+Utilizamos ciência de dados e *software* livre como instrumentos para
 gerar conhecimento relevante, promover inovação e contribuir de forma
 concreta para a sociedade.
 
@@ -116,9 +116,10 @@ Este compromisso não se encerra em princípios abstratos, mas se
 materializa nas práticas cotidianas de estudo, pesquisa, desenvolvimento
 e colaboração que sustentam este grupo.
 
-Ao adotar e promover software livre e código aberto como pilares da
-ciência de dados, assumimos uma postura ativa na construção de um
-ecossistema científico mais transparente, robusto e acessível.
+Ao adotar e promover *software* livre e código aberto como pilares da
+Estatística e Ciência de Dados, assumimos uma postura ativa na
+construção de um ecossistema científico mais transparente, robusto e
+acessível.
 
 Subscrevemos, os membros do Grupo de Usuários Linux e Software Livre do
 Curso de Estatística e Ciência de Dados da UFPR, este manifesto como

@@ -1,8 +1,8 @@
 ---
-date: 2026-04-09
+date: 2026-04-10
 title: |
   Regulamento Eleitoral  
-  Grupo de Usuários Linux e Software Livre  
+  Grupo de Usuários Linux e *Software* Livre  
   Estatística e Ciência de Dados - UFPR
 ---
 
@@ -23,7 +23,6 @@ title: |
   - [Período de Campanha](#período-de-campanha)
   - [Votação](#votação)
   - [Apuração e Resultado](#apuração-e-resultado)
-- [Processo de Votação](#processo-de-votação)
   - [Forma de Votação](#forma-de-votação)
   - [Regras](#regras)
   - [Quórum](#quórum)
@@ -31,7 +30,8 @@ title: |
 - [Transparência](#transparência)
 - [Mandato](#mandato)
 - [Vacância e Substituição](#vacância-e-substituição)
-- [Registro de Chapas](#registro-de-chapas)
+- [Procedimento Específico para Registro de
+  Chapas](#procedimento-específico-para-registro-de-chapas)
   - [Repositório de Registro](#repositório-de-registro)
   - [Procedimento de Submissão](#procedimento-de-submissão)
   - [Estrutura Obrigatória](#estrutura-obrigatória)
@@ -68,19 +68,21 @@ transparência, participação ampla e legitimidade democrática.
 
 # Estrutura da Chapa
 
-A estrutura em chapas tem como objetivo garantir coerência entre
-liderança e equipe de execução, incentivando que os membros escolham um
-conjunto organizado de pessoas com visão comum para o grupo.
+A estrutura em chapas tem como objetivo garantir coerência na equipe de
+coordenção, incentivando que os membros escolham um conjunto organizado
+de pessoas com visão comum para o grupo.
 
 Cada chapa deverá obrigatoriamente conter:
 
 <div class="conduta">
 
-1 candidato a Coordenador
+1 candidato a Coordenador (Definido como Coordenador Representativo)
 
-1 candidato a Vice-Coordenador
+1 candidato a Vice-Coordenador (Definido como Vice-Coordenador
+Representativo)
 
-Um conjunto de membros propostos para o Núcleo de Coordenação
+Um conjunto de membros para o Núcleo de Coordenação (Definidos como
+Coordenadores)
 
 </div>
 
@@ -99,8 +101,8 @@ Função operacional e estratégica
 # Atribuições dos Cargos
 
 Busca-se preservar a horizontalidade do conjunto de liderança,
-concentrando a autoridade decisória apenas quando estritamente
-necessário.
+concentrando a autoridade decisória no Coordenador Representativo apenas
+quando estritamente necessário.
 
 ## Coordenador
 
@@ -152,7 +154,7 @@ Atuar de forma colaborativa e horizontal
 Fiscalizar o uso adequado de recursos do grupo
 
 **Nota: as atribuições do Núcleo de Coordenação aplicam-se também ao
-Coordenador e ao Vice-Coordenador.**
+Coordenador Representativo e ao Vice-Coordenador Representativo.**
 
 </div>
 
@@ -233,15 +235,16 @@ Prazo máximo: 30 dias antes da data de encerramento da gestão
 
 <div class="conduta">
 
-Duração: 7 dias
+Duração: 14 dias
 
 Submissão via:
 
 <div class="conduta">
 
-GitHub (issue no repositório apropriado), ou
+GitHub (abertura de *issue* no repositório apropriado) e *Pull Request*
+com os documentos e dados requisitados, ou
 
-Mensagem formal no grupo e envio dos dados necessários à atual
+Mensagem formal no grupo e envio dos documentos necessários à atual
 coordenação
 
 </div>
@@ -252,11 +255,17 @@ A inscrição deve conter:
 
 <div class="conduta">
 
-Nome da chapa
+Um documento com o Plano de Gestão contendo o nome e número da chapa
 
-Composição completa
+Um documento contendo a composição completa incluindo uma mini-biografia
+de cada membro, seu cargo pretendido e link para o Currículo Lattes
 
-Plano de gestão
+Um documento declarando conhecimento sobre o conteúdo do Manifesto e
+Código de Conduta do grupo
+
+Os documentos devem ser digitalmente assinados por todos os membros da
+chapa através de método que permita o reconhecimento de autenticidade e
+concordância
 
 </div>
 
@@ -266,7 +275,7 @@ Plano de gestão
 
 Duração: até 2 dias
 
-Verificação de conformidade
+Verificação de conformidade realizada pela atual coordenação
 
 </div>
 
@@ -284,11 +293,17 @@ Discussões abertas no grupo
 
 ## Votação
 
+O processo de votação deve ser simples, acessível e transparente,
+garantindo que todos os membros possam participar sem barreiras
+técnicas, ao mesmo tempo em que assegura clareza na apuração dos
+resultados.
+
 <div class="conduta">
 
 Duração: 2 dias
 
-Realizada no grupo oficial de WhatsApp
+Realizada no grupo oficial de WhatsApp ou outro canal apropriado para o
+alcance do maior número de membros
 
 </div>
 
@@ -298,19 +313,23 @@ Realizada no grupo oficial de WhatsApp
 
 Divulgação em até 24 horas após encerramento
 
+A divulgação deverá acontecer em todos os canais de comunicação do grupo
+e deverá conter o nome e dados de contato de todos os membros da chapa
+
+A atual coordenação deverá registrar no repositório da eleição um
+documento com o resultado da apuração
+
+O resultado da eleição com a lista dos membros eleitos também deverá ser
+formalmente comunicado a todos os parceiros institucionais do grupo
+através de mensagem contendo o nome e dados de contato de todos os
+membros da chapa.
+
 </div>
-
-# Processo de Votação
-
-O processo de votação deve ser simples, acessível e transparente,
-garantindo que todos os membros possam participar sem barreiras
-técnicas, ao mesmo tempo em que assegura clareza na apuração dos
-resultados.
 
 ## Forma de Votação
 
-A votação será realizada por votação direta no grupo de WhatsApp,
-podendo ocorrer via:
+A votação poderá ser realizada por sistema digital específico ou
+realizada por votação direta no grupo de WhatsApp, ocorrendo via:
 
 <div class="conduta">
 
@@ -337,7 +356,7 @@ Votação aberta e transparente
 <div class="conduta">
 
 A atual coordenação deverá assegurar que mais de 90% dos membros do
-grupo sejam informados da data de realização das eleições.
+grupo sejam informados sobre a data de realização das eleições.
 
 Em caso de baixa participação (menos de 10% dos membros do grupo como
 votantes) deve-se realizar nova votação.
@@ -370,15 +389,18 @@ Para garantir integridade do processo:
 
 <div class="conduta">
 
-Todas as etapas devem ser publicamente documentadas
+Todas as etapas devem ser publicamente documentadas e arquivadas no
+repositório específico da eleição
 
 As propostas devem ser acessíveis a todos os membros
 
-Resultados devem ser divulgados de forma clara
+Os resultados devem ser divulgados de forma clara
 
 </div>
 
-Deve-se utilizar o GitHub institucional do grupo para:
+Deve-se utilizar o GitHub institucional (ou outro sistema de
+gerenciamento colaborativo Git formalmente estabelecido pelo grupo)
+para:
 
 <div class="conduta">
 
@@ -400,35 +422,57 @@ Início: imediatamente após a eleição
 
 Possibilidade de reeleição sem limitação formal
 
+Ao fim do mandato a coordenação deverá repassar à nova coordenação todas
+as senhas de acesso a sistemas do grupo assim como documentos, dados e
+outras informações relevantes
+
+Espera-se que os membros da antiga coordenação auxiliem a nova
+coodenação durante o período inicial de gestão, compartilhando
+informações e mantendo uma relação de colaboração
+
 </div>
 
 # Vacância e Substituição
 
 <div class="conduta">
 
-O Vice-Coordenador assume em caso de vacância do Coordenador
+O Vice-Coordenador Representativo assume em caso de vacância do
+Coordenador Representativo
 
-O Núcleo pode ser parcialmente reconfigurado pela Coordenação
+O Núcleo de Coordenação pode ser parcialmente reconfigurado pelo
+Coordenador Representativo durante o período de gestão da Chapa, com a
+inclusão ou remoção de membros
 
-Em caso de vacância do Coordenador e Vice-Coordenador o Núcleo de
-Coordenação pode eleger um novo Coodenador e Vice-Coordenador entre seus
-membros até o final da gestão da chapa.
+A modificação do Núcleo de Coordenação pode ocorrer mediante solicitação
+individual (tanto para participação quanto desligamento), ou
+justificativa clara e formal baseada nos princípios do Manifesto e do
+Código de Conduta
+
+Qualquer modificação no Núcleo de Coordenação deve ser explicitamente
+comunicada aos membros do grupo
+
+Em caso de vacância do Coordenador Representativo e Vice-Coordenador
+Representativo o Núcleo de Coordenação pode eleger um novo Coodenador
+Representativo e Vice-Coordenador Representativo entre seus membros até
+o final da gestão da chapa
 
 Em caso de vacância total, nova eleição deve ser convocada
 
 </div>
 
-# Registro de Chapas
+# Procedimento Específico para Registro de Chapas
 
 O processo de registro de chapas tem como objetivo garantir organização,
 transparência e rastreabilidade das candidaturas, utilizando a
-infraestrutura do GitHub como mecanismo formal de submissão,
-documentação e auditoria.
+infraestrutura do GitHub (ou outro sistema de colaboração Git em uso
+pelo grupo) como mecanismo formal de submissão, documentação e
+auditoria.
 
 A inscrição de chapas deverá ser realizada obrigatoriamente por meio do
 repositório oficial de eleições do grupo, mesmo se submetidas
-previamente via grupo de Whatsapp. Nesse caso, a atual coordenação fica
-responsável por submeter a inscrição via Github.
+previamente via grupo de Whatsapp e comunicação à atual coordenação.
+Nesse caso, a atual coordenação fica responsável por submeter a
+inscrição via Github.
 
 ## Repositório de Registro
 
@@ -461,9 +505,9 @@ Clonar o repositório:
 
 Navegar até o diretório da eleição vigente:
 
-    eleicao-gestao-01/
+    eleicao-gestao-XX/
 
-Criar um novo diretório com o nome da chapa, no formato:
+Criar um novo diretório com o número da chapa, no formato:
 
     chapaXX
 
@@ -478,19 +522,15 @@ informações e documentos:
 
 <div class="conduta">
 
-**Plano de gestão**
+**Plano de Gestão - ChapaXX**: Documento com a descrição das ações,
+atividades e projetos pretendidos, contendo o nome e número da chapa
 
-**Lista de membros**, contendo:
+**Composição - ChapaXX**: Documento contendo a composição completa da
+chapa, incluindo uma mini-biografia de cada membro, seu cargo pretendido
+e link para o Currículo Lattes
 
-<div class="conduta">
-
-Nome completo
-
-Cargo (Coordenador, Vice-Coordenador, Núcleo de Coordenação)
-
-Mini-biografia de cada membro com link para o currículo Lattes
-
-</div>
+**Declaração de Conhecimento - ChapaXX**: Documento declarando
+conhecimento sobre o conteúdo do Manifesto e Código de Conduta do grupo
 
 </div>
 
@@ -510,6 +550,9 @@ Markdown (.md)
 
 HTML (.html)
 
+Assinados digitalmente via PGP por todos os membros da chapa visando
+reconhecimento de autenticidade e concordância
+
 </div>
 
 </div>
@@ -520,13 +563,13 @@ Após a organização dos arquivos, a chapa deverá:
 
 <div class="numerado">
 
-Realizar commit das alterações
+Realizar *commit* das alterações
 
 Abrir um **Pull Request (PR)** para o repositório
 
 </div>
 
-A abertura do PR:
+O procedimento de *commit* e abertura do PR:
 
 <div class="conduta">
 
@@ -549,6 +592,10 @@ Verificar a conformidade estrutural da submissão
 Confirmar a presença de todos os documentos obrigatórios
 
 Validar a elegibilidade da chapa
+
+Submeter os documentos de inscrição ao repositório apropriado para
+chapas que fizerem a inscrição via submissão pública nos canais de
+comunicação do grupo ou envio direto dos documentos à atual coordenação
 
 </div>
 

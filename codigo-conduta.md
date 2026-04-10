@@ -1,8 +1,8 @@
 ---
-date: 2026-04-09
+date: 2026-04-10
 title: |
   Código de Conduta  
-  Grupo de Usuários Linux e Softare Livre  
+  Grupo de Usuários Linux e *Software* Livre  
   Estatística e Ciência de Dados - UFPR
 ---
 
@@ -139,16 +139,19 @@ Dados (LGPD)
 
 Promovam reprodutibilidade e transparência
 
+Participem das discussões, deliberações e votações do grupo de maneira
+honesta e aberta
+
 </div>
 
 # Alinhamento com Software Livre
 
-Este grupo se orienta pelos princípios do software livre e código
+Este grupo orienta-se pelos princípios do *software* livre e código
 aberto, promovendo:
 
 <div class="conduta">
 
-Liberdade de uso, estudo, modificação e distribuição de software
+Liberdade de uso, estudo, modificação e distribuição de *software*
 
 Transparência técnica e auditabilidade
 
