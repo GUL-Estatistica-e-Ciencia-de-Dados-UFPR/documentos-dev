@@ -45,6 +45,9 @@ Apoio a membros em processo de aprendizado
 
 Comunicação clara e baseada em evidências
 
+Participação ativa nas discussões, deliberações e votações do grupo de
+maneira honesta e aberta
+
 </div>
 
 # Comportamentos Inaceitáveis
@@ -137,17 +140,19 @@ Evitem práticas como plágio, fabricação ou manipulação indevida de dados
 Respeitem normas éticas aplicáveis, incluindo a Lei Geral de Proteção de
 Dados (LGPD)
 
-Promovam reprodutibilidade e transparência
+Declarem conflitos de interesse relevantes
 
-Participem das discussões, deliberações e votações do grupo de maneira
-honesta e aberta
+Citem fontes e referências adequadas
+
+Promovam reprodutibilidade, transparência e o uso de *software livre* e
+código aberto
 
 </div>
 
 # Alinhamento com Software Livre
 
 Este grupo orienta-se pelos princípios do *software* livre e código
-aberto, promovendo:
+aberto, incentivando:
 
 <div class="conduta">
 
@@ -156,6 +161,17 @@ Liberdade de uso, estudo, modificação e distribuição de *software*
 Transparência técnica e auditabilidade
 
 Colaboração descentralizada e meritocrática
+
+Inclusão e diversidade na participação
+
+Respeito às licenças e à propriedade intelectual
+
+Privacidade e segurança como prioridades
+
+Compartilhamento de conhecimento
+
+Promoção de software livre e código aberto como pilares de modelos
+econômicos sustentáveis
 
 </div>
 
