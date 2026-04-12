@@ -1,5 +1,5 @@
 ---
-date: 2026-04-10
+date: 2026-04-12
 title: |
   Carta de Fundação  
   Grupo de Usuários Linux e Software Livre  
@@ -20,7 +20,7 @@ title: |
   - [Atividades](#atividades)
   - [Uso de Infraestrutura](#uso-de-infraestrutura)
   - [Propriedade Intelectual](#propriedade-intelectual)
-  - [Revisão e Atualização](#revisão-e-atualização)
+  - [Membros Fundadores](#membros-fundadores)
 - [Disposição Final](#disposição-final)
 
 # Introdução
@@ -238,10 +238,10 @@ Projetos desenvolvidos no âmbito do grupo deverão, obrigatoriamente,
 adotar licenças de *software* livre e código aberto, garantindo
 liberdade de uso, modificação e distribuição.
 
-## Revisão e Atualização
+## Membros Fundadores
 
-Esta Carta de Fundação poderá ser revisada e atualizada conforme a
-evolução do grupo, mediante discussão e aprovação coletiva.
+Os signatários desta Carta de Fundação são reconhecidos como membros
+fundadores do GULECD/UFPR
 
 # Disposição Final
 
@@ -251,6 +251,16 @@ Usuários Linux e Software Livre do curso de Estatística e Ciência de
 Dados da UFPR, consolidando seu compromisso com a construção de uma
 comunidade técnica de excelência, orientada pela liberdade, pelo rigor
 científico e pela colaboração aberta.
+
+A presente Carta de Fundação constitui registro histórico do ato de
+criação do GULECD/UFPR, não estando sujeita a alterações após sua
+formalização.
+
+Os demais documentos institucionais do grupo são considerados
+automaticamente aceitos pelos signatários desta carta.
+
+Eventuais evoluções institucionais serão registradas em documentos
+complementares, sem alteração do presente instrumento.
 
 <div class="center">
 
