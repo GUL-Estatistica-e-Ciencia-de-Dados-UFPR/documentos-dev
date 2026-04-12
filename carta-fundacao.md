@@ -272,3 +272,14 @@ complementares, sem alteração do presente instrumento.
 Assinatura dos membros fundadores
 
 </div>
+
+<div class="center">
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+  
+Assinatura dos membros fundadores
+
+</div>
