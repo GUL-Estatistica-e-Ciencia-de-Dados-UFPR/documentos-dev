@@ -1,5 +1,5 @@
 ---
-date: 2026-04-10
+date: 2026-04-12
 title: |
   Manifesto do Grupo de Usuários Linux e Software Livre  
   Estatística e Ciência de Dados - UFPR
@@ -125,14 +125,3 @@ Subscrevemos, os membros do Grupo de Usuários Linux e Software Livre do
 Curso de Estatística e Ciência de Dados da UFPR, este manifesto como
 expressão formal de nossos valores, orientando nossas ações presentes e
 futuras.
-
-<div class="center">
-
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-  
-Assinatura dos membros fundadores
-
-</div>

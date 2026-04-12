@@ -1,5 +1,5 @@
 ---
-date: 2026-04-10
+date: 2026-04-12
 title: |
   Código de Conduta  
   Grupo de Usuários Linux e *Software* Livre  
@@ -180,14 +180,3 @@ econômicos sustentáveis
 Este Código de Conduta é um instrumento vivo e poderá ser revisado
 conforme a evolução do grupo. Sua aceitação é implícita à participação
 nas atividades e espaços do grupo.
-
-<div class="center">
-
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-  
-Assinatura dos membros fundadores
-
-</div>

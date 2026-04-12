@@ -1,5 +1,5 @@
 ---
-date: 2026-04-10
+date: 2026-04-12
 title: |
   Regulamento Eleitoral  
   Grupo de Usuários Linux e *Software* Livre  
@@ -631,16 +631,5 @@ eficiência e responsabilidade coletiva.
 Este regulamento poderá ser revisado mediante discussão coletiva
 
 Situações não previstas serão resolvidas pela Coordenação vigente
-
-</div>
-
-<div class="center">
-
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-  
-Assinatura dos membros fundadores
 
 </div>
