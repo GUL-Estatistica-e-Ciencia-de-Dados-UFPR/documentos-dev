@@ -241,7 +241,7 @@ liberdade de uso, modificação e distribuição.
 ## Membros Fundadores
 
 Os signatários desta Carta de Fundação são reconhecidos como membros
-fundadores do GULECD/UFPR
+fundadores do GULECD/UFPR.
 
 # Disposição Final
 
